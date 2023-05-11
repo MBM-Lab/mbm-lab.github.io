@@ -1,0 +1,17 @@
+current directory: /Users/dovday/Desktop/150h/mbm-lab.github.io/vendor/bundle/ruby/3.1.0/gems/racc-1.6.2/ext/racc/cparse
+/Users/dovday/.rbenv/versions/3.1.4/bin/ruby -I /Users/dovday/.rbenv/versions/3.1.4/lib/ruby/3.1.0 extconf.rb
+checking for rb_block_call()... yes
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /Users/dovday/Desktop/150h/mbm-lab.github.io/vendor/bundle/ruby/3.1.0/gems/racc-1.6.2/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230511-59509-6ccexm sitelibdir\=./.gem.20230511-59509-6ccexm clean
+
+current directory: /Users/dovday/Desktop/150h/mbm-lab.github.io/vendor/bundle/ruby/3.1.0/gems/racc-1.6.2/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230511-59509-6ccexm sitelibdir\=./.gem.20230511-59509-6ccexm
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/dovday/Desktop/150h/mbm-lab.github.io/vendor/bundle/ruby/3.1.0/gems/racc-1.6.2/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230511-59509-6ccexm sitelibdir\=./.gem.20230511-59509-6ccexm install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20230511-59509-6ccexm/racc

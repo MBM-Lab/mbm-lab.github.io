@@ -6195,6 +6195,10 @@ html,
 }
 
 /* start custom scss snippet */
+.h-120 {
+  height: 120px;
+}
+
 /* end custom scss snippet */
 
 /*# sourceMappingURL=main.css.map */

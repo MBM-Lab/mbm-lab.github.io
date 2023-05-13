@@ -1,0 +1,79 @@
+- name: Lucas Omar Müller
+  photo: lucasmueller.png 
+  cv: In 2014 I received a PhD in computational modelling with application to cardiovascular problems by the University of Trento. After my PhD I worked as a postdoc at the National Laboratory for Scientific Computing in Petropolis (Brazil), and then at the Biomechanics group at the Norwegian University for Science and technology (NTNU) in Trondheim (Norway). After these experiences abroad, in 2019 I returned to Trento as an assistant professor. Currently I am an associate professor in numerical analysis.
+  research_interests: "My main research interests regard:
+  Using mathematical models to understand the physiology of the cardiovascular system and related solid/fluid systems (as for example brain tissue drainage, lymphatics, vessel-muscle interaction, etc).
+  Propose and study mathematical models arising in applications, as well as develop numerical methods to efficiently discretize such modes. Here I have mainly focused on hyperbolic conservation and balance laws in highly complex networks of one-dimensional domains. 
+  Collaborate with international and local clinical researchers to combine medical images and data with physics-based models in order to study pathological states of the cardiovascular system. This line of research involves the non-invasive prediction of hemodynamic indexes."
+  links:
+    unitn: https://webapps.unitn.it/du/it/Persona/PER0027674/Didattica
+    google_scholar: https://scholar.google.it/citations?user=wgtPXkAAAAAJ&hl=en
+    scopus: https://www.scopus.com/authid/detail.uri?authorId=56535957300
+    orcid: https://orcid.org/my-orcid?orcid=0000-0003-1933-8995
+
+- name: Simone Pezzuto
+  photo: https://webapps.unitn.it/public/store/ermete/persona/per0251606/ufficiale.jpg?c=1115641314
+  cv: Dr. Simone Pezzuto is a senior researcher in Numerical Analysis at the Department of Mathematics of Università di Trento and an external collaborator at the Center for Computational Medicine in Cardiology (CCMC) and the Euler Institute of Università della Svizzera italiana, Lugano. Dr. Pezzuto’s background is in applied mathematics and scientific computing, He received his Ph.D. in 2013 from Politecnico di Milano (MOX, Department of Mathematics). Until September 2022, he was Group Leader at the Center for Computational Medicine in Cardiology, an interdisciplinary institute of Università della Svizzera italiana (Lugano). Previously, he was a postdoctoral researcher at Simula Research Laboratory, Norway.
+  research_interests: "Dr. Pezzuto’s main area of research is mathematical cardiac modeling. His group aims at the development of novel numerical methods for the personalization of cardiac models through PDE-constrained optimization and physics-based surrogate modeling. More recently, he investigated physics-informed neural networks (PINNs) in the context of cardiac modeling. He is also very active and amongst the earliest investigators of UQ for cardiac electrophysiology models, with great emphasis on high-dimensional uncertainty and multi-fidelity approaches. In collaboration with clinicians and physiologists, these methodologies have been applied to problems of clinical interest, including atrial fibrillation and cardiac resynchronization therapy. Dr. Pezzuto has an extensive network of collaborations in Europe and worldwide. He is a team leader of the MICROCARD [url: https://microcard.eu/index-en.html] European project, a board member of the PersonalizeAF network [url: https://personalizeaf.net], and PI of several projects (3 currently active.) Additionally, Dr. Pezzuto is an active developer of the fast electrophysiology solver Propag-5 and the maintainer of the GPU-based eikonal solver Propeiko."
+  links:
+    unitn: https://webapps.unitn.it/du/it/Persona/PER0251606/Didattica
+    google_scholar: https://scholar.google.it/citations?user=EmX0v2IAAAAJ
+    scopus: https://www.scopus.com/authid/detail.uri?authorId=56567875000 
+    orcid: https://orcid.org/0000-0002-7432-0424 
+
+- name: Veronica Vinciotti
+  photo: vhttps://drive.google.com/file/d/1a529ReCBbcPKIS6YYnsbkZ5b_iaSkozV/view?usp=share_link
+  cv: In 2003, Veronica Vinciotti received a PhD in statistics from Imperial College London. She then worked as a postgraduate researcher at the department of computer science at Brunel University London until 2007, when she joined the department of mathematics as a permanent member of staff and progressed to reader in 2017. Since 2020, she has been an associate professor in statistics at the department of mathematics at the University of Trento.
+  research_interests: "Veronica’s main research interests are in the development of statistical methodology and computational approaches related to:
+  Graphical models for dependent multivariate data, mostly in biology, genomics and health
+  Regularized inferential approaches for graphical models from high dimensional data
+  Statistical inference in biomedicine, particularly computational approaches for reconstructing biological networks from high-throughput genomic data
+  Network science
+  Quasi-reaction systems to model dynamic processes, such as cell differentiation and disease spreading"
+  links:
+    unitn: https://webapps.unitn.it/du/it/Persona/PER0222143/Didattica
+    google_scholar: https://scholar.google.co.uk/citations?user=KX-0T3oAAAAJ&hl=en
+    scopus: https://www.scopus.com/authid/detail.uri?authorId=57203268128
+    orcid: https://orcid.org/0000-0002-2625-7977
+
+- name: Alberto Valli
+  photo: albertovalli.png
+  cv: I am full professor of Mathematical Analysis at the Department of Mathematics of the University of Trento since 1987. I have been Senior Fellow at the AHPCRC, University of Minnesota, Minneapolis, U.S.A in 1990/91, and visiting researcher at the University of Paris-Nord and the University of Paris-Sud in 1979/80.
+  research_interests: "My research activity is in two main directions: one more related to numerical approximation of partial differential equations (especially in fluid dynamics and electromagnetism) by means of  finite element methods and domain decomposition methods; the other one more theoretical (existence and uniqueness theorems, qualitative properties of the solutions of partial differential equations)."
+  links:
+    unitn: https://valli.maths.unitn.it/
+
+- name: Ana Alonso Rodriguez
+  photo: ""
+  cv: I have been a full professor of Numerical Analysis at the department of mathematics at the University of Trento since 2020. I received a PhD in Mathematics from Universidad Complutense de Madrid in 1993 where I worked at the department of applied mathematics as an assistant professor  until 1996. In 2000 I joined the department of mathematics of Università degli Studi di Milano as a researcher and then I moved to the University of Trento where I have worked since 2003. 
+  research_interests: My research activity is in the numerical approximation of partial differential equations and computational electromagnetism, using in particular finite element methods. I am also interested in inverse problems and in domain decomposition methods. I have worked on the eddy current approximation of Maxwell equations, and recently I’ve been working on the numerical approximation of the eigenvalue problem of the curl operator, and on high order polynomial differential forms.
+  links:
+    unitn: https://webapps.unitn.it/du/it/Persona/PER0004711/Curriculum
+    scopus: https://www.scopus.com/authid/detail.uri?authorId=7403543978
+
+- name: Andrea Pugliese
+  photo: https://andrea-pugliese.maths.unitn.it/fotoAP4.jpg
+  cv: "I have received the Master’s degree in Mathematics at the University La Sapienza of Rome in 1978 and the Ph.D. in Ecology and Evolution at the State University of New York at Stony Brook in 1986. I have been first Researcher, then Associate professor, then (since 2005) Full Professor of Mathematical Analysis at the University of Trento. I spent periods of study at Cornell University, as Fulbright Fellow at Princeton University and as a visiting professor at Arizona State University."
+  research_interests: "My research activity has been almost entirely devoted to mathematical models in biology, and in particular on ecology and epidemiology. In my research I have dealt, on one hand, with the design and selection of detailed models adequate for the analysis of empirical data and, on the other hand, with the qualitative analysis of theoretical models aiming at understanding general patterns and trends. Among my recent research interests are
+  the dynamics of vector-borne infections, in particular those transmitted by mosquitoes and ticks, considering their ecological interactions;
+  the analysis of immuno-epidemiological models, i.e. where between-host transmission dynamics is coupled to intra-host immunological interactions;
+  the use of methods from singular perturbation theory in the analysis of epidemic models."
+  links:
+    unitn: https://andrea-pugliese.maths.unitn.it/
+    google_scholar: https://scholar.google.it/citations?user=dHByymsAAAAJ&hl=en&citsig=AMD79ooMZzUg9N5K6Cmnyrn96k-Rdd4Ecg
+    orcid: https://orcid.org/0000-0002-3512-8560
+
+- name: Mario Lauria
+  photo: mariolauria.png
+  cv: Mario Lauria earned a Laurea Magistrale in Electrical Engineering and a PhD in Computer Science and Engineering from the "Federico II" University of Naples, and a M.S. in Computer Science from the University of Illinois at Urbana-Champaign. He worked as a post-doc in computer science at the University of Illinois at U-C and at the University of California, San Diego, and from 2000 to 2007 as an Assistant Professor in the department of Computer Science and Engineering at the Ohio State University in Columbus, Ohio. After moving back to Italy he spent four years in the Systems Biology group at the Telethon Institute of Genetics and Medicine (TIGEM) in Naples, and in May 2011 he joined the Microsoft Research-University of Trento Centre for Computational and Systems Biology (COSBI) in Rovereto, Italy. In December 2016 he joined the Department of Mathematics at the University of Trento as associate professor of computational biology. Mario Lauria is a former Fulbright scholar, a recipient of a NATO Science Fellowship, and a Senior Member of the IEEE.
+  research_interests: "Mario’s research interests are in the area of the analysis of biological data in a broad sense. The types of data of interest include molecular profiles (expression profiles, miRNA profiles, etc.), sensor data (for example, accelerometers, ECG, etc.), data collected using smartphones for clinical applications.  Some recent projects are:
+  development of novel methods for the identification of diagnostic biomarkers based on -omics profiles; 
+  investigation of systems biology approaches to perform integrative data analysis; 
+  development of methods for the inference of gene regulation networks and their analysis; 
+  investigation of the molecular mechanisms of neurodegenerative diseases using gene expression profiles
+  analysis of patient movement data collected using smartphone apps and activity trackers."
+  links: 
+    unitn: https://webapps.unitn.it/du/it/Persona/PER0160323
+    google_scholar: https://scholar.google.com/citations?user=iY-LfSwAAAAJ&hl=en
+    scopus: https://www.scopus.com/authid/detail.uri?authorId=34877158200
+    orcid: https://orcid.org/0000-0001-5983-7292

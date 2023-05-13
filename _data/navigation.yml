@@ -25,3 +25,39 @@ header:
       en-CA   : *EN
       en-AU   : *EN
     url: /people.html
+  
+  - titles:
+      # @start locale config
+      en      : &EN       Teaching
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+    url: /teaching.html
+  
+  - titles:
+      # @start locale config
+      en      : &EN       Research
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+    url: /research.html
+  
+  - titles:
+      # @start locale config
+      en      : &EN       Publications
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+    url: /publications.html
+  
+  - titles:
+      # @start locale config
+      en      : &EN       News
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+    url: /news.html

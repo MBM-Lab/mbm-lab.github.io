@@ -1,4 +1,7 @@
 /* start custom scss snippet */
+
+// PEOPLE PAGE
+
 ul {
     padding-inline-start: 15px;
 }
@@ -37,6 +40,15 @@ ul {
     ul {
         list-style: none;
     }
+}
+
+// TEACHING PAGE
+
+.cards_teaching_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-align: justify;
 }
 
 /* end custom scss snippet */

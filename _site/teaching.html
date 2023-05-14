@@ -1,11 +1,11 @@
 <!DOCTYPE html><html lang="en">
   <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><title>Archive - MBM Lab</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><title>Teaching - MBM Lab</title>
 
 <meta name="description" content="Your Site Description
 ">
-<link rel="canonical" href="http://localhost:4000/archive.html"><link rel="alternate" type="application/rss+xml" title="MBM Lab" href="/feed.xml"><!-- start favicons snippet, use https://realfavicongenerator.net/ --><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png"><link rel="manifest" href="/assets/site.webmanifest"><link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#fc4d50"><link rel="shortcut icon" href="/assets/favicon.ico">
+<link rel="canonical" href="http://localhost:4000/teaching.html"><link rel="alternate" type="application/rss+xml" title="MBM Lab" href="/feed.xml"><!-- start favicons snippet, use https://realfavicongenerator.net/ --><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png"><link rel="manifest" href="/assets/site.webmanifest"><link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#fc4d50"><link rel="shortcut icon" href="/assets/favicon.ico">
 
 <meta name="msapplication-TileColor" content="#ffc40d"><meta name="msapplication-config" content="/assets/browserconfig.xml">
 
@@ -269,7 +269,7 @@
 </svg>
 <a title="Your Site Description
 " href="/">MBM Lab</a></div><button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button></div><nav class="navigation">
-        <ul><li class="navigation__item"><a href="/">Home</a></li><li class="navigation__item"><a href="/people.html">People</a></li><li class="navigation__item"><a href="/teaching.html">Teaching</a></li><li class="navigation__item"><a href="/research.html">Research</a></li><li class="navigation__item"><a href="/publications.html">Publications</a></li><li class="navigation__item"><a href="/news.html">News</a></li><li><button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button></li></ul>
+        <ul><li class="navigation__item"><a href="/">Home</a></li><li class="navigation__item"><a href="/people.html">People</a></li><li class="navigation__item navigation__item--active"><a href="/teaching.html">Teaching</a></li><li class="navigation__item"><a href="/research.html">Research</a></li><li class="navigation__item"><a href="/publications.html">Publications</a></li><li class="navigation__item"><a href="/news.html">News</a></li><li><button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button></li></ul>
       </nav></div>
   </header>
 </div><div class="page__content"><div class ="main"><div class="grid grid--reverse">
@@ -282,159 +282,45 @@
 <!-- commented to remove meta data about article (e.g. title + date of publication) -->
                 <!--<article itemscope itemtype="http://schema.org/WebPage">-->
 
-                <!--<div class="article__header"><header><h1>Archive</h1></header></div><meta itemprop="headline" content="Archive"><meta itemprop="author" content="Your Name"/>-->
+                <!--<div class="article__header"><header><h1>Teaching</h1></header></div><meta itemprop="headline" content="Teaching"><meta itemprop="author" content="Your Name"/>-->
 
-                    <div class="js-article-content"><div class="layout--archive js-all"><div class="site-tags js-tags">
-  <ul class="menu">
-    <li>
-      <button type="button" class="button button--secondary button--pill tag-button tag-button--all" data-encode="">
-        Show All<div class="tag-button__count">0</div>
-      </button>
-    </li></ul>
-</div>
-<div class="js-result layout--archive__result d-none"><div class="article-list items"></div>
-</div>
-</div>
-
-<script>(function() {
-  var SOURCES = window.TEXT_VARIABLES.sources;
-  function queryString() {
-    // This function is anonymous, is executed immediately and
-    // the return value is assigned to QueryString!
-    var i = 0, queryObj = {}, pair;
-    var queryStr = window.location.search.substring(1);
-    var queryArr = queryStr.split('&');
-    for (i = 0; i < queryArr.length; i++) {
-      pair = queryArr[i].split('=');
-      // If first entry with this name
-      if (typeof queryObj[pair[0]] === 'undefined') {
-        queryObj[pair[0]] = pair[1];
-        // If second entry with this name
-      } else if (typeof queryObj[pair[0]] === 'string') {
-        queryObj[pair[0]] = [queryObj[pair[0]], pair[1]];
-        // If third or later entry with this name
-      } else {
-        queryObj[pair[0]].push(pair[1]);
-      }
-    }
-    return queryObj;
-  }
-
-  var setUrlQuery = (function() {
-    var baseUrl =  window.location.href.split('?')[0];
-    return function(query) {
-      if (typeof query === 'string') {
-        window.history.replaceState(null, '', baseUrl + query);
-      } else {
-        window.history.replaceState(null, '', baseUrl);
-      }
-    };
-  })();
-
-  window.Lazyload.js(SOURCES.jquery, function() {
-    var $tags = $('.js-tags');
-    var $articleTags = $tags.find('button');
-    var $tagShowAll = $tags.find('.tag-button--all');
-    var $result = $('.js-result');
-    var $sections = $result.find('section');
-    var sectionArticles = [];
-    var $lastFocusButton = null;
-    var sectionTopArticleIndex = [];
-    var hasInit = false;
-
-    $sections.each(function() {
-      sectionArticles.push($(this).find('.item'));
-    });
-
-    function init() {
-      var i, index = 0;
-      for (i = 0; i < $sections.length; i++) {
-        sectionTopArticleIndex.push(index);
-        index += $sections.eq(i).find('.item').length;
-      }
-      sectionTopArticleIndex.push(index);
-    }
-
-    function searchButtonsByTag(_tag/*raw tag*/) {
-      if (!_tag) {
-        return $tagShowAll;
-      }
-      var _buttons = $articleTags.filter('[data-encode="' + _tag + '"]');
-      if (_buttons.length === 0) {
-        return $tagShowAll;
-      }
-      return _buttons;
-    }
-    function buttonFocus(target) {
-      if (target) {
-        target.addClass('focus');
-        $lastFocusButton && !$lastFocusButton.is(target) && $lastFocusButton.removeClass('focus');
-        $lastFocusButton = target;
-      }
-    }
-
-    function tagSelect (tag/*raw tag*/, target) {
-      var result = {}, $articles;
-      var i, j, k, _tag;
-
-      for (i = 0; i < sectionArticles.length; i++) {
-        $articles = sectionArticles[i];
-        for (j = 0; j < $articles.length; j++) {
-          if (tag === '' || tag === undefined) {
-            result[i] || (result[i] = {});
-            result[i][j] = true;
-          } else {
-            var tags = $articles.eq(j).data('tags').split(',');
-            for (k = 0; k < tags.length; k++) {
-              if (tags[k] === tag) {
-                result[i] || (result[i] = {});
-                result[i][j] = true; break;
-              }
-            }
-          }
-        }
-      }
-
-      for (i = 0; i < sectionArticles.length; i++) {
-        result[i] && $sections.eq(i).removeClass('d-none');
-        result[i] || $sections.eq(i).addClass('d-none');
-        for (j = 0; j < sectionArticles[i].length; j++) {
-          if (result[i] && result[i][j]) {
-            sectionArticles[i].eq(j).removeClass('d-none');
-          } else {
-            sectionArticles[i].eq(j).addClass('d-none');
-          }
-        }
-      }
-
-      hasInit || ($result.removeClass('d-none'), hasInit = true);
-
-
-      if (target) {
-        buttonFocus(target);
-        _tag = target.attr('data-encode');
-        if (_tag === '' || typeof _tag !== 'string') {
-          setUrlQuery();
-        } else {
-          setUrlQuery('?tag=' + _tag);
-        }
-      } else {
-        buttonFocus(searchButtonsByTag(tag));
-      }
-    }
-
-    var query = queryString(), _tag = query.tag;
-    init(); tagSelect(_tag);
-    $tags.on('click', 'button', function() {
-      tagSelect($(this).data('encode'), $(this));
-    });
-
-  });
-})();
-</script>
-
-
-</div><section class="page__comments d-print-none"></section></article><!-- start custom main bottom snippet -->
+                    <div class="js-article-content"><h1>Teaching</h1>
+<div class="cards_teaching_wrapper">
+  
+  <div class="card_teaching">
+    <h2>Master of Science in Mathematics</h2>
+    <p"><p>The Department of Mathematics promotes the Master of Science in Mathematics (Corso di Laurea Magistrale in Matematica), belonging to the class “LM-40 - Matematica”. The Master of Science in Mathematics is aimed at providing an in-depth knowledge and understanding of several areas of advanced Mathematics, and of its relations to other Sciences. Courses of the Master of Science in Mathematics are taught in English. The course is divided into curricula, which in turn are subdivided into tracks. 
+<br />
+There are two tracks that are heavily related to our laboratory:</p>
+<ul>
+<li>
+<strong>Track: Modelling, Statistics and Analysis of Biosystems</strong>
+<br />
+This track provides a widespread preparation at the interface between Biological sciences, Mathematics and Informatics. Students from this track have continued with Ph.D. studies and beyond. An introduction to modern mathematical methods in areas of biology, ecology, epidemiology, molecular networks is provided. Companies, in particular from the pharmaceutical sector, are interested in students with these competences in modelling and Statistics.
+</li>
+<li>
+<strong>Track: Modelling and Simulation for Biomedical Applications</strong>
+<br />
+Students from this track have the opportunity to develop strong abilities in numerical computation and to interact with clinical research in hospitals, universities and research centers. Such competences will provide students the possibility to continue their studies with a PhD in Applied Mathematics or in a biomedical program, as well as to work in the biomedical sector.
+</li>
+</ul>
+</p>
+    <hr />
+  </div>
+  
+  <div class="card_teaching">
+    <h2>Master of Science (Laurea Magistrale) in Quantitative and Computational Biology - QCB</h2>
+    <p"><p>The Master of Science (Laurea Magistrale) in Quantitative and Computational Biology is a multidisciplinary degree that formally integrates quantitative sciences and applied biology, thanks to the involvement of the following organizations at the University of Trento:
+CIBIO, Centre for integrative biology
+Department of Physics
+Department of Mathematics
+Department of Information Engineering and Computer Science
+The course focuses on a strategic area where  technology and methodology enable students to face essential questions at the interface between fundamental research and  clinical and pre-clinical areas, through analytical and quantitative approaches.</p>
+</p>
+    <hr />
+  </div>
+  
+</div></div><section class="page__comments d-print-none"></section></article><!-- start custom main bottom snippet -->
 
 <!-- end custom main bottom snippet -->
 </div>

@@ -1,0 +1,14 @@
+---
+layout: page
+---
+
+<h1>Teaching</h1>
+<div class="cards_teaching_wrapper">
+  {% for course in site.teaching %}
+  <div class="card_teaching">
+    <h2>{{course.title}}</h2>
+    <p">{{course.content}}</p>
+    <hr />
+  </div>
+  {% endfor %}
+</div>

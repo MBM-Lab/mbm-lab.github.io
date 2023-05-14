@@ -24,6 +24,9 @@ title   : MBM Lab
 description: > # this means to ignore newlines until "Language & timezone"
   Your Site Description
 remote-theme: jekyll-text-theme
+collections: 
+    faculty:
+      output: true
 
 
 ## => Language and Timezone

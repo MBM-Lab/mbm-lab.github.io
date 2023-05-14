@@ -50,7 +50,7 @@ timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for
 ##############################
 author:
   type      : # "person" (default), "organization"
-  name      : Your Name
+  name      : Davide Carlomagno
   url       :
   avatar    : # path or url of avatar image (square)
   bio       : # short bio or description

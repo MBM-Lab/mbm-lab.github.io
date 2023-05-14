@@ -1,7 +1,7 @@
 ---
 layout: person_page
 name: Veronica Vinciotti
-photo: https://drive.google.com/file/d/1a529ReCBbcPKIS6YYnsbkZ5b_iaSkozV/view?usp=share_link
+photo: /assets/images/people_portraits/veronicavinciotti.png
 cv: In 2003, Veronica Vinciotti received a PhD in statistics from Imperial College London. She then worked as a postgraduate researcher at the department of computer science at Brunel University London until 2007, when she joined the department of mathematics as a permanent member of staff and progressed to reader in 2017. Since 2020, she has been an associate professor in statistics at the department of mathematics at the University of Trento.
 research_interests: "Veronica’s main research interests are in the development of statistical methodology and computational approaches related to:
 Graphical models for dependent multivariate data, mostly in biology, genomics and health

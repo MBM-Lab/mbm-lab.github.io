@@ -3,11 +3,11 @@ layout: page
 ---
 
 <h2>Faculty</h2>
-<div class="grid">
+<div class="cards_people_wrapper">
   {% for member in site.faculty %}
-  <div>
+  <div class="card_person">
     <a href="{{ member.url }}">
-      <img class="rounded" src="{{ member.photo }}" width="100" height="100" />
+      <img class="profile_photo" src="{{ member.photo }}" width="100" height="100" />
       <p>{{ member.name }}</p>
     </a>
   </div>
@@ -15,29 +15,49 @@ layout: page
 </div>
 
 <h2>Postdoctoral Fellows</h2>
-<div>
-  {% for member in site.data.people.postdoc %}
-  <p>{{ member.name }}</p>
+<div class="cards_people_wrapper">
+  {% for member in site.postdocs %}
+  <div class="card_person">
+    <a href="{{ member.url }}">
+      <img class="profile_photo" src="{{ member.photo }}" width="100" height="100" />
+      <p>{{ member.name }}</p>
+    </a>
+  </div>
   {% endfor %}
 </div>
 
 <h2>Graduate Students</h2>
-<div>
-  {% for member in site.data.people.graduate %}
-  <p>{{ member.name }}</p>
+<div class="cards_people_wrapper">
+  {% for member in site.graduate %}
+  <div class="card_person">
+    <a href="{{ member.url }}">
+      <img class="profile_photo" src="{{ member.photo }}" width="100" height="100" />
+      <p>{{ member.name }}</p>
+    </a>
+  </div>
   {% endfor %}
 </div>
 
 <h2>Active Master Students</h2>
-<div>
-  {% for member in site.data.people.master %}
-  <p>{{ member.name }}</p>
+<div class="cards_people_wrapper">
+  {% for member in site.master %}
+  <div class="card_person">
+    <a href="{{ member.url }}">
+      <img class="profile_photo" src="{{ member.photo }}" width="100" height="100" />
+      <p>{{ member.name }}</p>
+    </a>
+  </div>
   {% endfor %}
 </div>
 
 <h2>Alumni</h2>
-<div>
-  {% for member in site.data.people.alumni %}
-  <p>{{ member.name }}</p>
+<div class="cards_people_wrapper">
+  {% for member in site.alumni %}
+  <div class="card_person">
+    <a href="{{ member.url }}">
+      <img class="profile_photo" src="{{ member.photo }}" width="100" height="100" />
+      <p>{{ member.name }}</p>
+    </a>
+  </div>
   {% endfor %}
 </div>

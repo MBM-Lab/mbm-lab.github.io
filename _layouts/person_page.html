@@ -5,15 +5,17 @@ layout: page
 <h1>{{page.name}}</h1>
 
 <img src="{{page.photo}}" alt="{{page.name}}" style="width:200px;height:200px;" />
+<h2>Links</h2>
+<div class="links_wrapper">
+    {% for link in page.links %}
+        <ul>
+            <li><a href="{{link[1]}}">{{link[0]}}</a></li>
+        </ul>
+    {% endfor %}
+</div>
 
 <h2>Short CV</h2>
 <p> {{page.cv}} </p>
 
 <h2>Research Interests</h2>
 <p> {{page.research_interests}} </p>
-
-{% for link in page.links %}
-    <ul>
-        <li><a href="{{link[1]}}">{{link[0]}}</a></li>
-    </ul>
-{% endfor %}

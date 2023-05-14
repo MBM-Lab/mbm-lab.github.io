@@ -1,7 +1,7 @@
 ---
 layout: person_page
 name: Lucas Omar Müller
-photo: lucasmueller.png 
+photo: /assets/images/people_portraits/lucasmuller.png 
 cv: In 2014 I received a PhD in computational modelling with application to cardiovascular problems by the University of Trento. After my PhD I worked as a postdoc at the National Laboratory for Scientific Computing in Petropolis (Brazil), and then at the Biomechanics group at the Norwegian University for Science and technology (NTNU) in Trondheim (Norway). After these experiences abroad, in 2019 I returned to Trento as an assistant professor. Currently I am an associate professor in numerical analysis.
 research_interests: "My main research interests regard:
 Using mathematical models to understand the physiology of the cardiovascular system and related solid/fluid systems (as for example brain tissue drainage, lymphatics, vessel-muscle interaction, etc).

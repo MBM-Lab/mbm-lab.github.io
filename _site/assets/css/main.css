@@ -6208,7 +6208,8 @@ ul {
   justify-content: center;
   text-align: center;
   align-items: center;
-  padding: 25px;
+  padding-block: 25px;
+  padding-inline: 20px;
   margin: 10px;
   border: 1px solid #e6e6e6;
   border-radius: 10px;

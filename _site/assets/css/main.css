@@ -6236,6 +6236,26 @@ ul {
   text-align: justify;
 }
 
+.footer {
+  min-height: 20vh;
+}
+.footer .university_wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 90vw;
+  padding-inline: 20px;
+  margin-block-end: 40px;
+}
+.footer .university_wrapper .vl {
+  border-left: 2px solid rgba(0, 0, 0, 0.25);
+  height: 100px;
+  left: 50%;
+}
+.footer .university_wrapper li {
+  list-style: none;
+}
+
 /* end custom scss snippet */
 
 /*# sourceMappingURL=main.css.map */

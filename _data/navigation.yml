@@ -28,6 +28,15 @@ header:
   
   - titles:
       # @start locale config
+      en      : &EN       Collaborators
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+    url: /collaborators.html
+  
+  - titles:
+      # @start locale config
       en      : &EN       Teaching
       en-GB   : *EN
       en-US   : *EN
@@ -46,6 +55,15 @@ header:
   
   - titles:
       # @start locale config
+      en      : &EN       Projects
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+    url: /projects.html
+  
+  - titles:
+      # @start locale config
       en      : &EN       Publications
       en-GB   : *EN
       en-US   : *EN
@@ -55,9 +73,9 @@ header:
   
   - titles:
       # @start locale config
-      en      : &EN       News
+      en      : &EN       Events
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
-    url: /news.html
+    url: /events.html

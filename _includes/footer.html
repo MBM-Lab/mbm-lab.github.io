@@ -1,27 +1,24 @@
 
 <footer class="footer py-4 js-page-footer">
   <div class="main">
-
-    {%- assign _site_author = site.author -%}
-    {%- if _site_author.type == 'organization' -%}
-      {%- assign _site_author_itemtype = 'http://schema.org/Organization' -%}
-    {%- else -%}
-      {%- assign _site_author_itemtype = 'http://schema.org/Person' -%}
-    {%- endif -%}
-
-    <div itemscope itemtype="{{ _site_author_itemtype }}">
-      <meta itemprop="name" content="{{ _site_author.name }}">
-      {%- assign _site_author_url = _site_author.url | default: '/'-%}
-      {%- include snippets/get-nav-url.html path=_site_author_url -%}
-      {%- assign _site_author_url = __return -%}
-      <meta itemprop="url" content="{{ _site_author_url }}">
-      {%- if _site_author.bio -%}
-        <meta itemprop="description" content="{{ _site_author.bio }}">
-      {%- endif -%}
-      <div class="footer__author-links">
-        {%- include author-links.html author=_site_author -%}
+    <!-- CONTACTS OF LABORATORY -->
+    <!-- USING THOSE OF DIP. OF MATH -->
+    <div class="university_wrapper">
+      <div>
+        <!-- image wrapper -->
+        <img src="/assets/images/logo_unitrento.png" alt="university of trento logo" height="150" />
+      </div>
+      <div class="vl"></div>
+      <div>
+        <!-- contacts info -->
+        <ul>
+          <li><a href="https://www.maths.unitn.it/" target="_blank">Dipartimento di Matematica</a></li>
+          <li><a href="https://goo.gl/maps/6Hs89HJ5A1SeWJpa7?coh=178571&entry=tt" target="_blank">Via Sommarive 14, I-38123 Povo (Trento)</a></li>
+          <li><a href="tel:+390461281508">tel. +39 0461 281508 - 3898 - 1980 - 1511</a></li>
+        </ul>
       </div>
     </div>
+
     {%- include snippets/get-locale-string.html key='COPYRIGHT_DATES' -%}
     {%- assign _locale_copyright_dates = __return -%}
     <div class="site-info mt-2">

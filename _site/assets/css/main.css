@@ -6247,13 +6247,31 @@ ul {
   padding-inline: 20px;
   margin-block-end: 40px;
 }
+.footer .university_wrapper span {
+  font-weight: 600;
+}
 .footer .university_wrapper .vl {
   border-left: 2px solid rgba(0, 0, 0, 0.25);
   height: 100px;
   left: 50%;
 }
+@media screen and (max-width: 600px) {
+  .footer .university_wrapper .vl {
+    display: none;
+  }
+}
 .footer .university_wrapper li {
   list-style: none;
+}
+.footer .university_wrapper a {
+  font-weight: 400;
+}
+@media screen and (max-width: 600px) {
+  .footer .university_wrapper {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
 }
 
 .sign {

@@ -6256,6 +6256,10 @@ ul {
   list-style: none;
 }
 
+.sign {
+  text-align: center;
+}
+
 /* end custom scss snippet */
 
 /*# sourceMappingURL=main.css.map */

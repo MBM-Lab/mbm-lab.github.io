@@ -6213,6 +6213,7 @@ ul {
   margin: 10px;
   border: 1px solid #e6e6e6;
   border-radius: 10px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .profile_photo {
@@ -6234,6 +6235,54 @@ ul {
   flex-direction: column;
   gap: 25px;
   text-align: justify;
+}
+
+.cards_events_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  padding-block: 15px;
+  padding-inline: 20px;
+  margin: 10px;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.cards_events_wrapper a {
+  font-weight: 400;
+}
+.cards_events_wrapper p {
+  color: black;
+}
+.cards_events_wrapper p span {
+  font-weight: 600;
+}
+.cards_events_wrapper .card_event {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.cards_events_wrapper .card_event .event_photo {
+  align-self: center;
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+}
+.cards_events_wrapper .card_event .event_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.image_section {
+  min-width: 105vw;
+  max-height: 350px;
+}
+.image_section img {
+  object-fit: cover;
+  object-position: 50% 0%;
+  margin-inline-start: -25px;
+  border: 1px solid rgba(0, 0, 0, 0.75);
 }
 
 .footer {

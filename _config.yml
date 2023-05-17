@@ -38,6 +38,8 @@ collections:
       output: true
     teaching:
       output: false
+    events:
+      output: true
 
 
 ## => Language and Timezone

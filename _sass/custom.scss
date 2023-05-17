@@ -20,6 +20,8 @@ ul {
         margin: 10px;
         border: 1px solid #e6e6e6;
         border-radius: 10px;
+
+        box-shadow: 2px 5px 10px rgba(0,0,0,.1);
         
         // a {
         //     color: black;
@@ -49,6 +51,68 @@ ul {
     flex-direction: column;
     gap: 25px;
     text-align: justify;
+}
+
+// EVENTS PAGE
+
+.cards_events_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+
+    padding-block: 15px;
+    padding-inline: 20px;
+    margin: 10px;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+
+    box-shadow: 2px 5px 10px rgba(0,0,0,.1);
+
+    a {
+        font-weight: 400;
+    }
+
+    p {
+        color: black;
+
+        span {
+            font-weight: 600;
+        }
+    }
+
+    .card_event {
+        display: flex;
+        flex-direction: row;
+
+        gap: 10px;
+
+        .event_photo {
+            align-self: center;
+            border: 1px solid rgba(0,0,0,.75);
+            border-radius: 10px;
+        }
+
+        .event_info {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+// EVENT PAGE
+
+.image_section {    
+    min-width: 105vw;
+    max-height: 350px;
+    
+    img {
+        object-fit: cover;
+        object-position: 50% 0%;
+        margin-inline-start: -25px;
+        border: 1px solid rgba(0,0,0,.75);
+    }
 }
 
 // FOOTER

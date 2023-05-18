@@ -104,13 +104,15 @@ ul {
 // EVENT PAGE
 
 .image_section {    
-    min-width: 105vw;
+    position: relative;
+    right: 0%;
+
+    min-width: 100%;
     max-height: 350px;
     
     img {
         object-fit: cover;
         object-position: 50% 0%;
-        margin-inline-start: -25px;
         border: 1px solid rgba(0,0,0,.75);
     }
 }

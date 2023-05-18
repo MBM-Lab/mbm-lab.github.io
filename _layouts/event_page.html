@@ -2,6 +2,7 @@
 layout: page
 ---
 
+
 <h1> {{ page.title }}</h1>
 <h6> {{ page.standard_date }}, {{ page.time }}</h6>
 <div class="image_section">
@@ -16,3 +17,6 @@ layout: page
 
 <h2>Where</h2>
 <p> {{page.where}} </p>
+<p><a href="{{page.zoom_link}}">{{page.zoom_link}}</a></p>
+<p>Meeting ID: {{page.zoom_meeting_id}}</p>
+<p>Passcode: {{page.zoom_passcode}}</p>

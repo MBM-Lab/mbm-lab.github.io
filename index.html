@@ -16,7 +16,57 @@ layout: home
 
 <hr>
 
-<h2>News</h2>
-<p>...</p>
+<h2>Events</h2>
+{% for event in site.events %} 
+  <div upcoming-date="{{ event.standard_date | date: '%Y%m%d' }}" class="cards_events_wrapper">  
+    <a href="{{ event.url }}">
+      <div class="card_event">
+        {% if event.photo == blank %}
+            <img
+            class="event_photo"
+            src="assets/android-chrome-512x512.png"
+            width="150"
+            height="150"
+            />
+        {% else %}
+            <img
+            class="event_photo"
+            src="{{ event.photo }}"
+            width="150"
+            height="150"
+            />
+        {% endif %}
+        <div class="event_info">
+          <h4>{{ event.title }}</h4>
+          <p><span>Speaker:</span> {{ event.speaker}}</p>
+          <p>{{ event.standard_date }}, {{event.time}}</p>
+        </div>
+      </div>
+    </a>
+  </div>
+{% endfor %}
+
+<!-- js script to get today's date -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+
+<script>
+  function getCompareDate() { 
+    var d = new Date(), 
+        month = '' + (d.getMonth() + 1), 
+        day = '' + d.getDate(), 
+        year = d.getFullYear(); 
+    if (month.length < 2) month = '0' + month; 
+    if (day.length < 2) day = '0' + day; 
+    return [year, month, day].join(''); 
+  }
+
+  $('[past-date]').each(function() { 
+    if($(this).attr('past-date') >= getCompareDate()) $(this).hide(); 
+  });
+
+  $('[upcoming-date]').each(function() { 
+    if($(this).attr('upcoming-date') < getCompareDate()) $(this).hide(); 
+  });
+</script>
 
 

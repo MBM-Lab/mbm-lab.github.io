@@ -8,12 +8,21 @@ layout: page
   <div upcoming-date="{{ event.standard_date | date: '%Y%m%d' }}" class="cards_events_wrapper">  
     <a href="{{ event.url }}">
       <div class="card_event">
-        <img
+        {% if event.photo == blank %}
+          <img
+          class="event_photo"
+          src="assets/android-chrome-512x512.png"
+          width="150"
+          height="150"
+          />
+        {% else %}
+          <img
           class="event_photo"
           src="{{ event.photo }}"
           width="150"
           height="150"
-        />
+          />
+        {% endif %}
         <div class="event_info">
           <h4>{{ event.title }}</h4>
           <p><span>Speaker:</span> {{ event.speaker}}</p>
@@ -30,12 +39,21 @@ layout: page
   <div past-date="{{ event.standard_date | date: '%Y%m%d' }}" class="cards_events_wrapper">  
     <a href="{{ event.url }}">
       <div class="card_event">
-        <img
+        {% if event.photo == blank %}
+          <img
           class="event_photo"
-          src="{{ event.photo }}"
+          src="assets/android-chrome-512x512.png"
           width="150"
           height="150"
-        />
+          />
+        {% else %}
+            <img
+            class="event_photo"
+            src="{{ event.photo }}"
+            width="150"
+            height="150"
+            />
+        {% endif %}
         <div class="event_info">
           <h4>{{ event.title }}</h4>
           <p><span>Speaker:</span> {{ event.speaker}}</p>

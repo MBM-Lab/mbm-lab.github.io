@@ -17,7 +17,7 @@ layout: home
 <hr>
 
 <h2>Events</h2>
-{% for event in site.events %} 
+{% for event in site.events limit:5 %} 
   <div upcoming-date="{{ event.standard_date | date: '%Y%m%d' }}" class="cards_events_wrapper">  
     <a href="{{ event.url }}">
       <div class="card_event">

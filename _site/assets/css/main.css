@@ -6274,6 +6274,10 @@ ul {
   display: flex;
   flex-direction: column;
 }
+.cards_events_wrapper .card_event .event_info .event_date {
+  margin-block-start: -10px;
+  color: rgba(0, 0, 0, 0.6);
+}
 
 .image_section {
   position: relative;

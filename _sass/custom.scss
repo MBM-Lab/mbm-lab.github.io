@@ -97,6 +97,11 @@ ul {
         .event_info {
             display: flex;
             flex-direction: column;
+
+            .event_date {
+                margin-block-start: -10px;
+                color:rgba(0, 0, 0, 0.6);
+            }
         }
     }
 }

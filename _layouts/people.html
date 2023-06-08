@@ -26,7 +26,7 @@ layout: page
   {% endfor %}
 </div>
 
-<h2>Graduate Students</h2>
+<!-- <h2>Graduate Students</h2>
 <div class="cards_people_wrapper">
   {% for member in site.faculty %}
   <div class="card_person">
@@ -36,7 +36,7 @@ layout: page
     </a>
   </div>
   {% endfor %}
-</div>
+</div> -->
 
 <h2>Active Master Students</h2>
 <div class="cards_people_wrapper">
@@ -52,10 +52,19 @@ layout: page
 
 <h2>Alumni</h2>
 <div class="cards_people_wrapper">
-  {% for member in site.faculty %}
+  {% for member in site.alumni %}
   <div class="card_person">
     <a href="{{ member.url }}">
-      <img class="profile_photo" src="{{ member.photo }}" width="100" height="100" />
+      {% if member.photo == blank %}
+          <img
+          class="event_photo"
+          src="assets/android-chrome-512x512.png"
+          width="100"
+          height="100"
+          />
+        {% else %}
+          <img class="profile_photo" src="{{ member.photo }}" width="100" height="100" />
+        {% endif %}
       <p>{{ member.name }}</p>
     </a>
   </div>

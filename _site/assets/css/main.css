@@ -6231,14 +6231,58 @@ ul {
   list-style: none;
 }
 
-.cards_teaching_wrapper {
+.card_testimonial_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding-block: 15px;
+  padding-inline: 20px;
+  margin: 10px;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.card_testimonial_wrapper img {
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.75);
+}
+.card_testimonial_wrapper .testimonial_info {
+  position: relative;
   display: flex;
   flex-direction: column;
-  gap: 25px;
-  text-align: justify;
+}
+.card_testimonial_wrapper .testimonial_info span {
+  font-family: "Space Grotesk", sans-serif;
+  position: absolute;
+  font-size: 10rem;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  opacity: 5%;
+}
+.card_testimonial_wrapper .testimonial_info .left {
+  top: -40px;
+  left: 0px;
+  rotate: 5deg;
+}
+.card_testimonial_wrapper .testimonial_info .right {
+  top: -40px;
+  right: 10px;
+  rotate: -5deg;
+}
+.card_testimonial_wrapper .testimonial_info a {
+  margin-block-start: -15px;
+  font-size: 0.9rem;
+}
+@media screen and (max-width: 600px) {
+  .card_testimonial_wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
-.cards_events_wrapper {
+.card_event_wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -6251,30 +6295,30 @@ ul {
   border-radius: 10px;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.1);
 }
-.cards_events_wrapper a {
+.card_event_wrapper a {
   font-weight: 400;
 }
-.cards_events_wrapper p {
+.card_event_wrapper p {
   color: black;
 }
-.cards_events_wrapper p span {
+.card_event_wrapper p span {
   font-weight: 600;
 }
-.cards_events_wrapper .card_event {
+.card_event_wrapper .card_event {
   display: flex;
   flex-direction: row;
   gap: 10px;
 }
-.cards_events_wrapper .card_event .event_photo {
+.card_event_wrapper .card_event .event_photo {
   align-self: center;
   border: 1px solid rgba(0, 0, 0, 0.75);
   border-radius: 10px;
 }
-.cards_events_wrapper .card_event .event_info {
+.card_event_wrapper .card_event .event_info {
   display: flex;
   flex-direction: column;
 }
-.cards_events_wrapper .card_event .event_info .event_date {
+.card_event_wrapper .card_event .event_info .event_date {
   margin-block-start: -10px;
   color: rgba(0, 0, 0, 0.6);
 }

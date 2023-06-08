@@ -5,7 +5,7 @@ layout: page
 <h2>Upcoming Events</h2>
 <hr />
 {% for event in site.events %} 
-  <div upcoming-date="{{ event.standard_date | date: '%Y%m%d' }}" class="cards_events_wrapper">  
+  <div upcoming-date="{{ event.standard_date | date: '%Y%m%d' }}" class="card_event_wrapper">  
     <a href="{{ event.url }}">
       <div class="card_event">
         {% if event.photo == blank %}
@@ -36,7 +36,7 @@ layout: page
 <h2>Past Events</h2>
 <hr />
 {% for event in site.events reversed %} 
-  <div past-date="{{ event.standard_date | date: '%Y%m%d' }}" class="cards_events_wrapper">  
+  <div past-date="{{ event.standard_date | date: '%Y%m%d' }}" class="card_event_wrapper">  
     <a href="{{ event.url }}">
       <div class="card_event">
         {% if event.photo == blank %}

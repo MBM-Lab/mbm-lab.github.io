@@ -46,16 +46,72 @@ ul {
 
 // TEACHING PAGE
 
-.cards_teaching_wrapper {
+.cards_testimonial_wrapper {
+
+}
+
+.card_testimonial_wrapper {
     display: flex;
-    flex-direction: column;
-    gap: 25px;
-    text-align: justify;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    padding-block: 15px;
+    padding-inline: 20px;
+    margin: 10px;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    
+    box-shadow: 2px 5px 10px rgba(0,0,0,.1);
+    
+    img {
+        border-radius: 10px;
+        border: 1px solid rgba(0,0,0,.75);
+    }
+
+    .testimonial_info {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        
+        span {
+            font-family: 'Space Grotesk', sans-serif;
+            position: absolute;
+            // font-style: italic;
+            font-size: 10rem;
+            font-weight: 900;
+            color: rgba(0,0,0,1);
+            opacity: 5%;
+        }
+
+        .left {
+            top: -40px;
+            left: 0px;
+            rotate: 5deg;
+        }
+        
+        .right {
+            top: -40px;
+            right: 10px;
+            rotate: -5deg;
+        }
+
+        a {
+            margin-block-start: -15px;
+            font-size: 0.9rem;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 // EVENTS PAGE
 
-.cards_events_wrapper {
+.card_event_wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;

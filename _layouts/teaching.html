@@ -2,13 +2,54 @@
 layout: page
 ---
 
+<!-- js script to get google font for quotes -->
+<script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap"
+    rel="stylesheet"
+  />;
+</script>
+<!-- end js script -->
+
 <h1>Teaching</h1>
 <div class="cards_teaching_wrapper">
   {% for course in site.teaching %}
   <div class="card_teaching">
     <h2>{{course.title}}</h2>
-    <p">{{course.content}}</p>
+    <p>{{course.content}}</p>
     <hr />
+  </div>
+  {% endfor %}
+</div>
+
+<h2>Testimonials</h2>
+<div class="cards_testimonial_wrapper">
+  {% for testimonial in site.testimonials %}
+  <div class="card_testimonial_wrapper">
+    {% if testimonial.photo == blank %}
+    <img
+      class="event_photo"
+      src="assets/android-chrome-512x512.png"
+      width="125"
+      height="125"
+    />
+    {% else %}
+    <img
+      class="profile_photo"
+      src="{{ testimonial.photo}}"
+      width="125"
+      height="125"
+    />
+    {% endif %}
+    <div class="testimonial_info">
+      <h4>{{testimonial.name}}</h4>
+      <span class="left">"</span>
+      <p>{{testimonial.catch_phrase}}</p>
+      <span class="right">"</span>
+      <a href="{{ testimonial.url }}">
+        <p>read more...</p>
+      </a>
+    </div>
   </div>
   {% endfor %}
 </div>

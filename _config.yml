@@ -40,6 +40,8 @@ collections:
       output: false
     events:
       output: true
+    testimonials:
+      output: true
 
 
 ## => Language and Timezone

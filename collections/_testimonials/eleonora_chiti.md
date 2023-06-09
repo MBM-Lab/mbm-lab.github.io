@@ -1,6 +1,7 @@
 ---
 layout: interview_page
 name: Eleonora Chiti
+pronoun: her
 photo: /assets/images/people_portraits/eleonora_chiti.jpg
 catch_phrase: "Explore the innovative intersection of mathematics and medicine with our Master's in Modelling and Simulation for Biomedical Applications."
 ---

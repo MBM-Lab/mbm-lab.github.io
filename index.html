@@ -12,7 +12,15 @@ layout: home
 </p>
 
 <h2>Researches</h2>
-<p>...</p>
+<ul>
+  {% for research in site.research %}
+  <li>
+      <a href="{{ research.url }}">
+        <p>{{research.title}}</p>
+      </a>
+  </li>
+  {% endfor %}
+</ul>
 
 <hr>
 

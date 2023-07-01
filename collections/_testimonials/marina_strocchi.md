@@ -2,7 +2,7 @@
 layout: interview_page
 name: Marina Strocchi
 pronoun: her
-photo:
+photo: /assets/images/people_portraits/marina_strocchi.jpg
 catch_phrase: "The biology/biomedical programme is amazing...especially if one wants to find a job abroad afterwards."
 ---
 

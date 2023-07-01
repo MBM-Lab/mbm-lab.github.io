@@ -1,8 +1,8 @@
 ---
 layout: event_page
-title: "Modeling and personalisation of a coupled 6D-2D multiphysics model of the cardiovascular system"
+title: "Modeling and personalisation of a coupled 3D-1D multiphysics model of the cardiovascular system"
 speaker: "Federica Caforio"
-standard_date: "12th May 2023"
+standard_date: "15th May 2023"
 time: "4:30pm"
 where: "Room A204 – Povo1, Via Sommarive 5"
 zoom_link: "https://unitn.zoom.us/j/86222344129"

@@ -1,6 +1,6 @@
 ---
 layout: interview_page
-name: Giulia Monopoli Strocchi
+name: Giulia Monopoli
 pronoun: her
 photo: /assets/images/people_portraits/giulia_monopoli.jpg
 catch_phrase: "Unleash math's potential in biomedical breakthroughs with our Master's in Modelling and Simulation."

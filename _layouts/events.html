@@ -25,8 +25,10 @@ layout: page
         {% endif %}
         <div class="event_info">
           <h4>{{ event.title }}</h4>
-          <p><span>Speaker:</span> {{ event.speaker}}</p>
-          <p class="event_date">{{ event.standard_date }}, {{event.time}}</p>
+          {% if event.speaker != blank %}
+            <p><span>Speaker:</span> {{ event.speaker}}</p>
+          {% endif %}
+          <p class="event_date">{{ event.standard_date }} {{event.time}}</p>
         </div>
       </div>
     </a>
@@ -56,8 +58,10 @@ layout: page
         {% endif %}
         <div class="event_info">
           <h4>{{ event.title }}</h4>
-          <p><span>Speaker:</span> {{ event.speaker}}</p>
-          <p class="event_date">{{ event.standard_date }}, {{event.time}}</p>
+          {% if event.speaker != blank %}
+            <p><span>Speaker:</span> {{ event.speaker}}</p>
+          {% endif %}
+          <p class="event_date">{{ event.standard_date }} {{event.time}}</p>
         </div>
       </div>
     </a>

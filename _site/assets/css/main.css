@@ -6375,6 +6375,30 @@ ul {
   }
 }
 
+.card_publication {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  padding-block: 15px;
+  padding-inline: 20px;
+  margin: 10px;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.card_publication a {
+  font-weight: 400;
+}
+.card_publication p {
+  color: black;
+}
+.card_publication .card_info {
+  text-align: left;
+}
+.card_publication img {
+  margin-block-start: -20px;
+}
+
 /* end custom scss snippet */
 
 /*# sourceMappingURL=main.css.map */

@@ -230,6 +230,42 @@ ul {
     }
 }
 
+// PUBLICATIONS PAGE
+// .cards_publication_wrapper {
+//     display: grid;
+// }   
+
+.card_publication {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+
+    padding-block: 15px;
+    padding-inline: 20px;
+    margin: 10px;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+
+    box-shadow: 2px 5px 10px rgba(0,0,0,.1);
+
+    a {
+        font-weight: 400;
+    }
+
+    p {
+        color: black;
+    }
+
+    .card_info {
+        text-align: left;
+    }
+
+    img {
+        margin-block-start: -20px;
+    }
+}
+
+
 // DEBUG
 
 // * {

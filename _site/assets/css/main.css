@@ -6271,6 +6271,7 @@ ul {
   rotate: -5deg;
 }
 .card_testimonial_wrapper .testimonial_info a {
+  z-index: 999;
   margin-block-start: -5px;
   font-size: 0.9rem;
 }

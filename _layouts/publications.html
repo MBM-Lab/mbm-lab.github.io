@@ -59,22 +59,20 @@ layout: page
 
       const card = document.createElement("div");
       card.className = "card_publication";
-      let cardInfo = `
-        <a target='_blank' href='${DOI_base_url}${DOI}'>
-        <div class='card_info'>
-        <p><b>${publication.titolo}</b></p>
-        <p>`;
+      let cardInfo = `<a target='_blank' href='${DOI_base_url}${DOI}'>`;
+      //   <div class='card_info'>
+      //   <p><b>${publication.titolo}</b></p>
+      //   <p>`;
 
-      publication.autori.map((author) => {
-        cardInfo += `${author.nominativo}, `;
-      });
-      cardInfo += `</p>
-        <p>${publication.anno}</p>
-        </div>
-        <img src='assets/images/doi_logo.png' width='30' height='30' />
-        </a>
-      `;
-      // <p>${publication.citazione}</p>
+      // publication.autori.map((author) => {
+      //   cardInfo += `${author.nominativo}, `;
+      // });
+      // cardInfo += `</p>
+      //   <p>${publication.anno}</p>
+      //   </div>
+      // `;
+      cardInfo += `<p>${publication.citazione}</p>`;
+      cardInfo += `</a>`;
       card.innerHTML = cardInfo;
       document.querySelector(".cards_publication_wrapper").appendChild(card);
     });

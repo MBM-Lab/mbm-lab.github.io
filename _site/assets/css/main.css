@@ -6196,6 +6196,14 @@ html,
 }
 
 /* start custom scss snippet */
+.hero_img {
+  position: relative;
+  right: 0%;
+  min-width: 100%;
+  max-height: 350px;
+  border: 1px solid rgba(0, 0, 0, 0.75);
+}
+
 ul {
   padding-inline-start: 15px;
 }
@@ -6341,7 +6349,6 @@ ul {
 .card_publication {
   display: flex;
   flex-direction: column;
-  text-align: right;
   padding-block: 15px;
   padding-inline: 20px;
   margin: 10px;

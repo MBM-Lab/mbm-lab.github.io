@@ -1,5 +1,17 @@
 /* start custom scss snippet */
 
+// HOME - INDEX PAGE
+
+.hero_img {
+    position: relative;
+    right: 0%;
+
+    min-width: 100%;
+    max-height: 350px;
+
+    border: 1px solid rgba(0,0,0,.75);
+}
+
 // PEOPLE PAGE
 
 ul {
@@ -195,7 +207,7 @@ ul {
 .card_publication {
     display: flex;
     flex-direction: column;
-    text-align: right;
+    // text-align: right;
 
     padding-block: 15px;
     padding-inline: 20px;

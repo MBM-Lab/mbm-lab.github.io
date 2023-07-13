@@ -316,41 +316,35 @@
     const json = await response.json(); //extract JSON from the http response
     let partial_publications = json.data;
 
+    // FILTER BY YEAR
+    // partial_publications = partial_publications.filter((publication) => {
+    //   return publication.anno == 2023;
+    // });
+
+    // lowering all the keywords -------------
+
+    partial_publications = partial_publications.map((publication) => {
+      publication.keywords = publication.keywords.map((keyword) => {
+        return keyword.toLowerCase();
+      });
+
+      return publication;
+    });
+    
+    // end lowering all the keywords ---------
+
     // FILTER BY KEYWORDS (at least one of these)
     // mbmlab, mbmlab{med,bio, epi}
-
-    // FILTER BY YEAR
     partial_publications = partial_publications.filter((publication) => {
-      return publication.anno == 2023;
-    });
-
-    // ****** DOESN'T WORK AS EXPECTED ******
-
-    // lowring all the keywords -------------
-    // ? necessary
-
-    // const lowercasedKeywords = partial_publications.reduce((acc, obj) => {
-    //   return acc.concat(obj.keywords.map(keyword => keyword.toLowerCase()));
-    // }, []);
-
-    // end lowring all the keywords ---------
-
-    partial_publications.filter((publication) => {
-      // console.log(publication.keywords);
-      // console.log(publication.keywords.includes('mbmlab') ||
-      //             publication.keywords.includes('mbmlabmed') ||
-      //             publication.keywords.includes('mbmlabbio') ||
-      //             publication.keywords.includes('mbmlabepi'));
-
       return (publication.keywords.includes('mbmlab')
       || publication.keywords.includes('mbmlabmed')
       || publication.keywords.includes('mbmlabbio')
       || publication.keywords.includes('mbmlabepi'));
     });
 
-    publications.push(...partial_publications);
+    console.log(partial_publications);
 
-    // ****** DOESN'T WORK AS EXPECTED ******
+    publications.push(...partial_publications);
   };
 
   const generateHTML = () => {

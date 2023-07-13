@@ -6,6 +6,8 @@ description: "The computational biofluids group focuses on modeling applied to t
 
 ## 2.3 Müller
 
+![test](https://mbm-lab.github.io/assets/safari-pinned-tab.svg)
+
 2.3.i) Description. We are interested in the description of body fluids dynamics by means of mathematical models and in the design of efficient numerical methods to obtain accurate and robust approximations of their solutions. We want to answer questions regarding basic cardiovascular physiology and pathology, as well as their link to disease and their impact on other processes such as neurovascular physiology and pathology. We also carry on projects closely linked to the clinic, involving intense dialogue with clinicians from local and international hospitals. All these applications are tackled using mathematical models that describe the underlying physical processes, and numerical methods needed to resolve the mathematical models.
 
 2.3.ii) Main research topics. 

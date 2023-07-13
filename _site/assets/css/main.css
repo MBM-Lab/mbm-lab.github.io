@@ -6346,6 +6346,47 @@ ul {
   border: 1px solid rgba(0, 0, 0, 0.75);
 }
 
+.card_project_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  padding-block: 15px;
+  padding-inline: 20px;
+  margin: 10px;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.card_project_wrapper a {
+  font-weight: 400;
+}
+.card_project_wrapper p {
+  color: black;
+}
+.card_project_wrapper p span {
+  font-weight: 600;
+}
+.card_project_wrapper .card_project {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.card_project_wrapper .card_project .project_info {
+  display: flex;
+  flex-direction: column;
+}
+.card_project_wrapper .card_project .project_info .project_date {
+  margin-block-start: -10px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.img-styling {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 10px;
+  max-height: 225px;
+}
+
 .card_publication {
   display: flex;
   flex-direction: column;

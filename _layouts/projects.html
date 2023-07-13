@@ -1,0 +1,16 @@
+---
+layout: page
+---
+
+<h2>Projects</h2>
+{% for project in site.projects %}
+<div class="card_project_wrapper">
+  <div class="card_project">
+    <div class="project_info">
+      <h4>{{ project.title }}</h4>
+      <p><strong>Responsibles:</strong> {{project.responsibles}}</p>
+      <p class="project_date">{{project.begin}} - {{project.end}}</p>
+    </div>
+  </div>
+</div>
+{% endfor %}

@@ -32,14 +32,33 @@ layout: page
       return publication.anno == 2023;
     });
 
-    // publications.filter((publication) => {
-    //   return publication.keywords.toLowerCase().includes('mbmlab')
-    //   || publication.keywords.toLowerCase().includes('mbmlabmed')
-    //   || publication.keywords.toLowerCase().includes('mbmlabbio')
-    //   || publication.keywords.toLowerCase().includes('mbmlabepi');
-    // });
+    // ****** DOESN'T WORK AS EXPECTED ******
+
+    // lowring all the keywords -------------
+    // ? necessary
+
+    // const lowercasedKeywords = partial_publications.reduce((acc, obj) => {
+    //   return acc.concat(obj.keywords.map(keyword => keyword.toLowerCase()));
+    // }, []);
+
+    // end lowring all the keywords ---------
+
+    partial_publications.filter((publication) => {
+      // console.log(publication.keywords);
+      // console.log(publication.keywords.includes('mbmlab') ||
+      //             publication.keywords.includes('mbmlabmed') ||
+      //             publication.keywords.includes('mbmlabbio') ||
+      //             publication.keywords.includes('mbmlabepi'));
+
+      return (publication.keywords.includes('mbmlab')
+      || publication.keywords.includes('mbmlabmed')
+      || publication.keywords.includes('mbmlabbio')
+      || publication.keywords.includes('mbmlabepi'));
+    });
 
     publications.push(...partial_publications);
+
+    // ****** DOESN'T WORK AS EXPECTED ******
   };
 
   const generateHTML = () => {

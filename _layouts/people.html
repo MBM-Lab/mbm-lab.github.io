@@ -7,7 +7,12 @@ layout: page
   {% for member in site.faculty %}
   <div class="card_person">
     <a href="{{ member.url }}">
-      <img class="profile_photo" src="{{ member.photo }}" width="100" height="100" />
+      <img
+        class="profile_photo"
+        src="{{ member.photo }}"
+        width="100"
+        height="100"
+      />
       <p>{{ member.name }}</p>
     </a>
   </div>
@@ -16,14 +21,15 @@ layout: page
 
 <h2>Postdoctoral Fellows</h2>
 <div class="cards_people_wrapper">
-  {% for member in site.faculty %}
-  <div class="card_person">
-    <a href="{{ member.url }}">
-      <img class="profile_photo" src="{{ member.photo }}" width="100" height="100" />
-      <p>{{ member.name }}</p>
-    </a>
-  </div>
-  {% endfor %}
+  <ul>
+    {% for member in site.faculty %}
+    <li>
+      <a href="{{ member.url }}">
+        <p>{{ member.name }}</p>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
 </div>
 
 <!-- <h2>Graduate Students</h2>
@@ -40,14 +46,15 @@ layout: page
 
 <h2>Active Master Students</h2>
 <div class="cards_people_wrapper">
-  {% for member in site.faculty %}
-  <div class="card_person">
-    <a href="{{ member.url }}">
-      <img class="profile_photo" src="{{ member.photo }}" width="100" height="100" />
-      <p>{{ member.name }}</p>
-    </a>
-  </div>
-  {% endfor %}
+  <ul>
+    {% for member in site.faculty %}
+    <li>
+      <a href="{{ member.url }}">
+        <p>{{ member.name }}</p>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
 </div>
 
 <h2>Alumni</h2>
@@ -56,15 +63,20 @@ layout: page
   <div class="card_person">
     <a href="{{ member.url }}">
       {% if member.photo == blank %}
-          <img
-          class="event_photo"
-          src="assets/android-chrome-512x512.png"
-          width="100"
-          height="100"
-          />
-        {% else %}
-          <img class="profile_photo" src="{{ member.photo }}" width="100" height="100" />
-        {% endif %}
+      <img
+        class="event_photo"
+        src="assets/android-chrome-512x512.png"
+        width="100"
+        height="100"
+      />
+      {% else %}
+      <img
+        class="profile_photo"
+        src="{{ member.photo }}"
+        width="100"
+        height="100"
+      />
+      {% endif %}
       <p>{{ member.name }}</p>
     </a>
   </div>

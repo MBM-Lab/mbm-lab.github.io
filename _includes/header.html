@@ -8,17 +8,18 @@
     <div class="main">
       <div class="header__title">
         <div class="header__brand">
-          <!-- <img src="assets/images/logo_unitrento.png" alt="logo" height="50" /> -->
-          {%- include svg/logo.svg -%}
+          <a href="/"><img src="/assets/images/logo_unitrento.png" alt="logo" height="50" /></a>
+          <!-- {%- include svg/logo.svg -%} -->
           {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
           {%- include snippets/get-nav-url.html path=_paths_root -%}
-          {%- if site.title -%}
+          <!-- {%- if site.title -%}
             <a title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}">{{ site.title }}</a>
-          {%- endif -%}
+          {%- endif -%} -->
         </div>
-        {%- if site.search.provider -%}
+        <!-- ***** removed search option ***** -->
+        <!-- {%- if site.search.provider -%}
           <button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button>
-        {%- endif -%}
+        {%- endif -%} -->
       </div>
       {%- if site.data.navigation.header -%}
       <nav class="navigation">
@@ -35,9 +36,10 @@
               <li class="navigation__item"><a href="{{ _nav_url }}">{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a></li>
             {%- endif -%}
           {%- endfor -%}
-          {%- if site.search.provider -%}
+          <!-- ***** removed search option ***** -->
+          <!-- {%- if site.search.provider -%}
             <li><button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button></li>
-          {%- endif -%}
+          {%- endif -%} -->
         </ul>
       </nav>
       {%- endif -%}

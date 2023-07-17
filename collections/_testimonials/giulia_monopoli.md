@@ -16,8 +16,7 @@ catch_phrase: "Unleash math's potential in biomedical breakthroughs with our Mas
 
 3. **Why did you choose this master?**
 
-   I chose to pursue a Master’s degree in Modelling and Simulation for Biomedical Applications Mathematics, because I was fascinated by the potential of mathematics research in contributing to practical applications, particularly in the field of human health. The prospect of using mathematical tools to develop innovative solutions and potentially life-saving technologies greatly motivated me. This program offered a unique opportunity to combine my passion for mathematics with the exciting field of
-   biomedical applications.
+   I chose to pursue a Master’s degree in Modelling and Simulation for Biomedical Applications Mathematics, because I was fascinated by the potential of mathematics research in contributing to practical applications, particularly in the field of human health. The prospect of using mathematical tools to develop innovative solutions and potentially life-saving technologies greatly motivated me. This program offered a unique opportunity to combine my passion for mathematics with the exciting field of biomedical applications.
 
 4. **What do you consider to be the strong points of the master?**
 

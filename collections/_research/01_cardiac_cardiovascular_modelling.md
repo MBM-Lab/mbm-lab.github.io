@@ -91,7 +91,9 @@ The transport of substances in the so-called perivascular spaces of cerebral art
 
 Combining wearables and mechanistic models for remote patient-monitoring: this is a project involving our research group and Prof. Riccardi's group (DISI, UNITN) as partners. The project proposes to construct and deploy wearables on patients with cardiac and respiratory diseases so that they are remotely monitored. Mathematical modeling will be used to assess the quality of the data. We will also investigate the capacity of models to, in combination with wearable-acquired data, reproduce variables that are normally only accessible when the patient visits the hospital. This is an ongoing topic in which we collaborate with the cardiology department of Santa Chiara hospital (headed by Dr. Bonmassari) and the Pneumology department of the Ospedale Civile di Arco (headed by Dr. Nardelli).
 
-### Main collaborations. These are our current main collaborators (February 2023):
+### Main collaborations.
+
+These are our current main collaborators (February 2023):
 
 National collaborators applied mathematics and modeling
 
@@ -120,11 +122,11 @@ Norwegian University of Science and Technology (NTNU, Trondheim, Norway): We col
 Bioengineering Institute (Auckland, New Zealand): we collaborate with Dr. Maso Talou on the modeling of blood pressure control mechanisms and with Dr. Reynolds on modeling of the lymphatic system. 
 Prof. Francesco Costanzo (Penn State University, USA). Collaboration on peri-vascular cerebral flow models.
 
-#### Thesis proposals
+### Thesis proposals
 
 Please contact Prof. Müller if you are interested in research projects regarding possible topics for your master thesis or our PhD in applied mathematics.
 
-#### References
+### References
 
 ## Pezzuto
 

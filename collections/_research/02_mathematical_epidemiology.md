@@ -27,6 +27,7 @@ Individuals can change their social behaviour spontaneously in response to an ep
 A related ongoing project concerns a coupled info-epidemic system for misinformation and virus spreading.
 
 #### Epidemics on complex structures
+
 Most classical epidemic models assume that all individuals mix homogeneously. It is clear that such an assumption is far from reality, and different models have been proposed in which such an assumption is relaxed. We have considered a deterministic SAIRS epidemic model (with asymptomatic and symptomatic infections) in a multi-group setting (i.e., it is assumed that homogeneous mixing occurs within each group, while a matrix describes infectious contacts between subpopulations), obtaining conditions for the global asymptotic stability of the endemic equilibrium. In the limit when the number of groups is very large, but each has a small size, one obtains the (stochastic) epidemic models in households; in this case, we have been exploring what is the effect on the overall epidemic dynamics of sudden changes in contact rates in one only of the settings, mimicking the effect of lock-downs or other restrictions of contacts. Another type of modelling involves contact networks in which infections occur only when a susceptible and an infected individual are connected through a link; in this setting, we have both analysed simulations of synthetic networks, and studied the behaviour of deterministic models obtained through the so-called pair approximation.
  
  
@@ -41,41 +42,41 @@ Finally, we have started contacts with the Department of Public Health of the Un
 
 ### Collaborations
 
-Dynamics of vector-borne infections
+Dynamics of vector-borne infections:
 -   	Marco Tamba, Mattia Calzolari and collaborators, Istituto 
 
-Zooprofilattico Sperimentale di Lombardia ed Emilia-Romagna
+Zooprofilattico Sperimentale di Lombardia ed Emilia-Romagna:
 -   	Gioia Capelli and collaborators, Istituto Zooprofilattico Sperimentale delle Venezie
 -   	Giovanni Marini, Fondazione Edmund Mach
 -   	Ilaria Dorigatti, Imperial College
 -       Piero Poletti and collaborators, Center for Health Emergencies, FBK
 -   	Roberto Rosà, C3A, Università di Trento
 
-Analysis of immuno-epidemiological models
+Analysis of immuno-epidemiological models:
 -   	Hayriye Gulbudak, University of Louisiana
 -   	Fabio Milner, Arizona State University
 
-Behavioural Epidemiology of Infectious Diseases
+Behavioural Epidemiology of Infectious Diseases:
 -   	Bruno Buonomo, Università di Napoli Federico II
 -   	Rossella Della Marca, Mathematics Area, SISSA
 -   	Alberto d’Onofrio – Dipartimento di Matematica e Geoscienze, Università di Trieste
 
-Epidemics on complex structures
+Epidemics on complex structures:
 -   	Stefania Ottaviano, Università di Padova
 -   	Mattia Sensi, Politecnico di Torino
 -   	Marco Broccardo, Dipartimento di Ingegneria Civile Ambientale e Meccanica, Università di Trento
 
-Use of singular perturbation methods in epidemic models
+Use of singular perturbation methods in epidemic models:
 -   	Tommaso Lorenzi, Mattia Sensi, Politecnico di Torino
 -   	Panagiotis Kaklamanos, University of Edinburgh
 -   	Christian Kuehn, Technical University of Munchen
 
-Health Technology Assessment of vaccination strategies
+Health Technology Assessment of vaccination strategies:
 -   	Caterina Rizzo, Università di Pisa
 -   	Annalisa Calabrò, Università Cattolica del Sacro Cuore, Roma
 -   	Joaquin Mould-Quevedo, CSL Seqirus Inc.
 
-Modelling and control of insect pests
+Modelling and control of insect pests:
 -   	Gianfranco Anfora, C3A, Università di Trento
 -   	Marco Valerio Rossi Stacconi, Fondazione Edmund Mach
 -   	Valerio Mazzoni, Fondazione Edmund Mach

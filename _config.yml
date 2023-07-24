@@ -30,8 +30,6 @@ collections:
       output: true
     alumni:
       output: true
-    graduate:
-      output: true
     master:
       output: true
     postdoc:

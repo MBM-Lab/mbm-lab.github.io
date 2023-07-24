@@ -11,7 +11,52 @@ layout: page
     let imagesArray = [...imagesNodes];
 
     imagesArray.slice(1).map((img) => { // remove header logo image
-        console.log(img.alt + ": " + img.classList);
         img.classList.add('img-styling');
     });
+
+    // convert all h4 tags and right following div into collapsible
+    let h4Nodes = document.querySelectorAll('h4');
+    let h4Array = [...h4Nodes];
+    
+    // add button to h4 to expand and collapse
+    h4Array.map((h4) => {
+        h4.classList.add('h4-styling');
+        
+        let parent = h4.parentElement;
+
+        let button = document.createElement('button');
+        button.innerHTML = '+';
+        button.classList.add('expand-button');
+        h4.appendChild(button);
+        // parent.insertBefore(button, h4);
+
+        let div = h4.nextElementSibling;
+        div.classList.add('collapsed-div');
+    });
+
+    // link collapsible divs to buttons
+
+    // add event listener to button
+
+    let buttons = document.querySelectorAll('.expand-button');
+    let buttonsArray = [...buttons];
+
+    buttonsArray.map((button) => {
+        button.addEventListener('click', () => {
+
+            // next parent's sibling is the div
+            let div = button.parentElement.nextElementSibling;
+
+            if(div.classList.contains("collapsed-div")) {
+                div.classList.remove("collapsed-div");
+                div.classList.add("expanded-div");
+                button.innerHTML = '-';
+            } else {
+                div.classList.remove("expanded-div");
+                div.classList.add("collapsed-div");
+                button.innerHTML = '+';
+            }
+        });
+    });
+
 </script>

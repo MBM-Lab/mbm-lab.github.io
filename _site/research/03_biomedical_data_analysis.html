@@ -3,7 +3,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><title>Biomedical Data Analysis - MBM Lab</title>
 
-<meta name="description" content="2.4 Vinciotti2.4.i) Description We are interested in the development of statistical methodology and computational approaches related to graphical modelling o...">
+<meta name="description" content="LauriaVinciottiDescriptionWe are interested in the development of statistical methodology and computational approaches related to graphical modelling of high...">
 <link rel="canonical" href="http://localhost:4000/research/03_biomedical_data_analysis.html"><link rel="alternate" type="application/rss+xml" title="MBM Lab" href="/feed.xml"><!-- start favicons snippet, use https://realfavicongenerator.net/ --><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -291,16 +291,20 @@
 <!-- commented to remove meta data about article (e.g. title + date of publication) -->
                 <!--<article itemscope itemtype="http://schema.org/WebPage">-->
 
-                <!--<div class="article__header"><header><h1>Biomedical Data Analysis</h1></header></div><meta itemprop="headline" content="Biomedical Data Analysis"><div class="article__info clearfix"><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>Jul 14, 2023</span>
-            </li></ul></div><meta itemprop="author" content="Davide Carlomagno"/><meta itemprop="datePublished" content="2023-07-14T09:51:37+02:00">-->
+                <!--<div class="article__header"><header><h1>Biomedical Data Analysis</h1></header></div><meta itemprop="headline" content="Biomedical Data Analysis"><div class="article__info clearfix"><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>Jul 24, 2023</span>
+            </li></ul></div><meta itemprop="author" content="Davide Carlomagno"/><meta itemprop="datePublished" content="2023-07-24T13:58:13+02:00">-->
 
                     <div class="js-article-content"><h1>Biomedical Data Analysis</h1>
 
-<p><h2 id="24-vinciotti">2.4 Vinciotti</h2>
+<p><h2 id="lauria">Lauria</h2>
 
-<p>2.4.i) Description We are interested in the development of statistical methodology and computational approaches related to graphical modelling of high dimensional multivariate data and modelling of network data. In the application area of biomedicine, we are particularly interested in the reconstruction of biological networks from high-throughput genomic data and in the modelling of the dynamic processes of cell differentiation and disease spreading.</p>
+<h2 id="vinciotti">Vinciotti</h2>
 
-<p>2.4.ii) Main research topics</p>
+<h3 id="description">Description</h3>
+
+<p>We are interested in the development of statistical methodology and computational approaches related to graphical modelling of high dimensional multivariate data and modelling of network data. In the application area of biomedicine, we are particularly interested in the reconstruction of biological networks from high-throughput genomic data and in the modelling of the dynamic processes of cell differentiation and disease spreading.</p>
+
+<h3 id="main-research-topics">Main research topics</h3>
 
 <p>Regularized inference for high-dimensional data
 We study the penalised inferential framework in the context of graphical modelling, that is for the estimation of the inverse of the covariance matrix. We develop efficient computational methods for solving the estimating equations, in a variety of (non-standard) settings such as non-Gaussian and missing/censored data.</p>
@@ -312,12 +316,14 @@ We apply graphical modelling approaches to the inference of biological networks 
 
 <p>We develop statistical methods for the inference of parameters of dynamic processes, such as cell differentiation and disease spreading, that can be characterized via quasi-reaction systems of stochastic differential equations. Recently, we are particularly interested in developing methods that combine local linear approximation procedures with event-history analyses.</p>
 
-<p>2.4.iii) Main collaborations</p>
+<h3 id="main-collaborations">Main collaborations</h3>
 
 <p>Institute of Computing, Università Svizzera italiana. We collaborate with Prof. Ernst Wit on the development of graphical modelling approaches and their application to genomics.
 Scienze Economiche, Aziendali e Statistiche, Università degli Studi di Palermo. We collaborate with Prof. Luigi Augugliaro on computational statistical approaches for regularized inference.</p>
 
-<p>2.4.iv) Thesis proposals. Please contact Prof. Vinciotti if you are interested in research projects regarding possible topics for your master thesis or PhD in statistics.</p>
+<h3 id="thesis-proposals">Thesis proposals</h3>
+
+<p>Please contact Prof. Vinciotti if you are interested in research projects regarding possible topics for your master thesis or PhD in statistics.</p>
 </p>
 
 <script>
@@ -325,9 +331,54 @@ Scienze Economiche, Aziendali e Statistiche, Università degli Studi di Palermo.
     let imagesArray = [...imagesNodes];
 
     imagesArray.slice(1).map((img) => { // remove header logo image
-        console.log(img.alt + ": " + img.classList);
         img.classList.add('img-styling');
     });
+
+    // convert all h4 tags and right following div into collapsible
+    let h4Nodes = document.querySelectorAll('h4');
+    let h4Array = [...h4Nodes];
+    
+    // add button to h4 to expand and collapse
+    h4Array.map((h4) => {
+        h4.classList.add('h4-styling');
+        
+        let parent = h4.parentElement;
+
+        let button = document.createElement('button');
+        button.innerHTML = '+';
+        button.classList.add('expand-button');
+        h4.appendChild(button);
+        // parent.insertBefore(button, h4);
+
+        let div = h4.nextElementSibling;
+        div.classList.add('collapsed-div');
+    });
+
+    // link collapsible divs to buttons
+
+    // add event listener to button
+
+    let buttons = document.querySelectorAll('.expand-button');
+    let buttonsArray = [...buttons];
+
+    buttonsArray.map((button) => {
+        button.addEventListener('click', () => {
+
+            // next parent's sibling is the div
+            let div = button.parentElement.nextElementSibling;
+
+            if(div.classList.contains("collapsed-div")) {
+                div.classList.remove("collapsed-div");
+                div.classList.add("expanded-div");
+                button.innerHTML = '-';
+            } else {
+                div.classList.remove("expanded-div");
+                div.classList.add("collapsed-div");
+                button.innerHTML = '+';
+            }
+        });
+    });
+
 </script></div><section class="page__comments d-print-none"></section></article><!-- start custom main bottom snippet -->
 
 <!-- end custom main bottom snippet -->

@@ -253,6 +253,34 @@ ul {
     max-height: 225px;
 }
 
+.collapsed-div {
+    display: none;
+}
+
+.expanded-div {
+    display: block;
+}
+
+.expand-button {
+    align-items: center;
+    cursor: pointer;
+    
+    margin-inline-start: 10px;
+    width: 25px;
+    
+    font-weight: 800;
+    font-size: 30px;
+
+    color: rgb(79, 99, 39);
+}
+
+.h4-styling {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
 
 // PUBLICATIONS PAGE
 // .cards_publication_wrapper {
@@ -274,6 +302,7 @@ ul {
 
     a {
         font-weight: 400;
+        word-wrap: break-word;
     }
 
     p {

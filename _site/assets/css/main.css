@@ -6239,6 +6239,11 @@ ul {
   list-style: none;
 }
 
+a h2 {
+  color: rgb(79, 99, 39);
+  text-decoration: underline;
+}
+
 .card_testimonial_wrapper {
   display: flex;
   flex-direction: row;

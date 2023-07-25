@@ -1,6 +1,6 @@
 ---
 layout: interview_page
-name: Christian Contarinio
+name: Christian Contarino
 pronoun: his
 photo: /assets/images/people_portraits/christian_contarinio.jpg
 catch_phrase: "I would strongly recommend this Master's program to anyone interested in exploring the infinite potential and applications of mathematics in the medical field."

@@ -45,7 +45,35 @@ layout: page
   {% endfor %}
 </div>
 
-<h2>Current Master Students</h2>
+<h2>PhD Students/Candidates</h2>
+<div class="cards_people_wrapper">
+  {% for member in site.phd %}
+  <div class="card_person">
+    <a href="{{ member.url }}">
+      {% if member.photo == blank %}
+      <img
+        class="event_photo"
+        src="assets/android-chrome-512x512.png"
+        width="100"
+        height="100"
+      />
+      {% else %}
+      <img
+        class="profile_photo"
+        src="{{ member.photo }}"
+        width="100"
+        height="100"
+      />
+      {% endif %}
+      <p>{{ member.name }}</p>
+    </a>
+  </div>
+  {% endfor %}
+</div>
+
+<h2>Master Students</h2>
+<h3>Current</h3>
+<h3>Former</h3>
 <div class="cards_people_wrapper">
   <ul>
     {% for member in site.master %}

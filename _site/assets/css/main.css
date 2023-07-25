@@ -6398,6 +6398,10 @@ a h2 {
 
 .expanded-div {
   display: block;
+  padding: 10px;
+  margin-block-start: -10px;
+  border-radius: 0 0 10px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
 }
 
 .expand-button {
@@ -6406,15 +6410,19 @@ a h2 {
   margin-inline-start: 10px;
   width: 25px;
   font-weight: 800;
-  font-size: 30px;
+  font-size: 25px;
   color: rgb(79, 99, 39);
 }
 
 .h4-styling {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background-color: rgba(79, 99, 39, 0.25);
 }
 
 .card_publication {

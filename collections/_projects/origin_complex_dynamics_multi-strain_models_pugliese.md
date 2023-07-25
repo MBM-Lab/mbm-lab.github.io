@@ -1,0 +1,11 @@
+---
+layout: project_page
+title: "On the Origin of Complex Dynamics in Multi-strain Models: Insights for Public Health Intervention Measures"
+responsibles: "Andrea Pugliese"
+coordinators: "Università degli Studi di Trento"
+sponsor: "EC_REA"
+tender: "H2020-MSCA-IF-2017"
+begin: "01/01/2019"
+end: "28/02/2021"
+abstract: "The dynamics of infectious diseases are by nature non-linear and the understanding of such processes is mathematically difficult, demanding concepts from various fields of mathematics tackling biological questions for real life systems. To be descriptive and predictive, models try to include relevant information on the host-pathogen-vector interactions via the available empirical data. These models have shown rich dynamic structures, with bifurcations up to chaotic attractors able to describe large fluctuations observed in real world disease incidence data. In this project, the origin of the chaotic dynamics in multi-strain epidemiological models will be studied and the mechanisms needed to generate such complex behavior will be identified in basic models, disentangling it from external forcing such as seasonality for example. Multi-strain models will be extended, in collaboration with Prof. Andrea Pugliese (Trento University) providing his experience on vector dynamics, age and space-structured epidemic modeling. The dynamics of vaccine implementation and the control of vector populations, combined with the host-pathogen interactions, will be rigorously evaluated. The over-riding aim of this project is to develop the simplest models able to address specific public health questions, taking into account the chaotic behavior found in such systems, a challenging and new approach. The developed models will be investigated using innovative methods from dynamical systems theory and stochastic processes, including an ambitious and novel application of a recently developed technique for parameter estimation in such complex systems, a method called maximum likelihood iterated filtering including dynamic noise in likelihood functions for multi-strain dynamics. This proposal requires a highly interdisciplinary approach with results applied well beyond the state-ofthe-art."
+---

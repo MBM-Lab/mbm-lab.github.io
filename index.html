@@ -31,38 +31,35 @@ layout: home
 <hr />
 
 <h2>Events</h2>
-{% for event in site.events limit:5 %}
-<div
-  upcoming-date="{{ event.standard_date | date: '%Y%m%d' }}"
-  class="card_event_wrapper"
->
-  <a href="{{ event.url }}">
-    <div class="card_event">
-      {% if event.photo == blank %}
-      <img
-        class="event_photo"
-        src="assets/android-chrome-512x512.png"
-        width="150"
-        height="150"
-      />
-      {% else %}
-      <img
-        class="event_photo"
-        src="{{ event.photo }}"
-        width="150"
-        height="150"
-      />
-      {% endif %}
-      <div class="event_info">
-        <h4>{{ event.title }}</h4>
-        {% if event.speaker != blank %}
-        <p><span>Speaker:</span> {{ event.speaker}}</p>
+{% for event in site.events %} 
+  <div upcoming-date="{{ event.standard_date | date: '%Y%m%d' }}" class="card_event_wrapper">  
+    <a href="{{ event.url }}">
+      <div class="card_event">
+        {% if event.photo == blank %}
+          <img
+          class="event_photo"
+          src="assets/android-chrome-512x512.png"
+          width="150"
+          height="150"
+          />
+        {% else %}
+          <img
+          class="event_photo"
+          src="{{ event.photo }}"
+          width="150"
+          height="150"
+          />
         {% endif %}
-        <p class="event_date">{{ event.standard_date }} {{event.time}}</p>
+        <div class="event_info">
+          <h4>{{ event.title }}</h4>
+          {% if event.speaker != blank %}
+            <p><span>Speaker:</span> {{ event.speaker}}</p>
+          {% endif %}
+          <p class="event_date">{{ event.standard_date }} {{event.time}}</p>
+        </div>
       </div>
-    </div>
-  </a>
-</div>
+    </a>
+  </div>
 {% endfor %}
 
 <!-- js script to get today's date -->

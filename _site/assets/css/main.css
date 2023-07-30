@@ -6196,6 +6196,10 @@ html,
 }
 
 /* start custom scss snippet */
+html {
+  overflow-x: hidden;
+}
+
 .green_bars {
   position: relative;
   left: -50%;

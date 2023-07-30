@@ -73,15 +73,34 @@ layout: page
 
 <h2>Master Students</h2>
 <h3>Current</h3>
+<div class="cards_people_wrapper">
+  <ul>
+    {% for member in site.master %}
+      {% if member.graduation_year == blank %}
+        <li>
+            {{ member.name }}: {{ member.thesis_title }} ({{ member.supervisors }})
+            {% if member.external_institution != blank %}
+              , {{ member.external_institution }}
+            {% endif %}
+            ;
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
 <h3>Former</h3>
 <div class="cards_people_wrapper">
   <ul>
     {% for member in site.master %}
-    <li>
-      <a href="{{ member.url }}">
-        <p>{{ member.name }}</p>
-      </a>
-    </li>
+      {% if member.graduation_year != blank %}
+        <li>
+            {{ member.name }}: {{ member.thesis_title }} ({{ member.supervisors }})
+            {% if member.external_institution != blank %}
+              , {{ member.external_institution }}
+            {% endif %}
+            , {{ member.graduation_year }} ;
+        </li>
+      {% endif %}
     {% endfor %}
   </ul>
 </div>

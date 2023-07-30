@@ -6,9 +6,58 @@ layout: home
 
 <h1>Laboratory of Mathematics for Biology And Medicine</h1>
 
-<div class="img_wrapper">
-  <img class="hero_img" src="./assets/safari-pinned-tab.svg" />
+<!--  -->
+
+<!-- ******* START CAROUSEL ******** -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li
+      data-target="#carouselExampleIndicators"
+      data-slide-to="0"
+      class="active"
+    ></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+  </ol>
+  <div class="green_bars">
+    <div class="carousel-inner hero_img_wrapper">
+      <div class="carousel-item active">
+        <img
+          class="d-block w-100 hero_img"
+          src="./assets/images/carousel/blackboard.jpeg"
+          alt=""
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          class="d-block w-100 hero_img"
+          src="./assets/images/carousel/qbc.jpg"
+          alt="Second slide"
+        />
+      </div>
+    </div>
+    <a
+      class="carousel-control-prev"
+      href="#carouselExampleIndicators"
+      role="button"
+      data-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a
+      class="carousel-control-next"
+      href="#carouselExampleIndicators"
+      role="button"
+      data-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 </div>
+<!-- ******* END CAROUSEL ******** -->
+
+<br />
 
 <p>
   Our research group is interested in the development of mathematical and
@@ -21,9 +70,7 @@ layout: home
 <ul>
   {% for research in site.research %}
   <li>
-    <a href="{{ research.url }}">
-      {{research.title}}
-    </a>
+    <a href="{{ research.url }}"> {{research.title}} </a>
   </li>
   {% endfor %}
 </ul>
@@ -31,35 +78,38 @@ layout: home
 <hr />
 
 <h2>Events</h2>
-{% for event in site.events %} 
-  <div upcoming-date="{{ event.standard_date | date: '%Y%m%d' }}" class="card_event_wrapper">  
-    <a href="{{ event.url }}">
-      <div class="card_event">
-        {% if event.photo == blank %}
-          <img
-          class="event_photo"
-          src="assets/android-chrome-512x512.png"
-          width="150"
-          height="150"
-          />
-        {% else %}
-          <img
-          class="event_photo"
-          src="{{ event.photo }}"
-          width="150"
-          height="150"
-          />
+{% for event in site.events %}
+<div
+  upcoming-date="{{ event.standard_date | date: '%Y%m%d' }}"
+  class="card_event_wrapper"
+>
+  <a href="{{ event.url }}">
+    <div class="card_event">
+      {% if event.photo == blank %}
+      <img
+        class="event_photo"
+        src="assets/android-chrome-512x512.png"
+        width="150"
+        height="150"
+      />
+      {% else %}
+      <img
+        class="event_photo"
+        src="{{ event.photo }}"
+        width="150"
+        height="150"
+      />
+      {% endif %}
+      <div class="event_info">
+        <h4>{{ event.title }}</h4>
+        {% if event.speaker != blank %}
+        <p><span>Speaker:</span> {{ event.speaker}}</p>
         {% endif %}
-        <div class="event_info">
-          <h4>{{ event.title }}</h4>
-          {% if event.speaker != blank %}
-            <p><span>Speaker:</span> {{ event.speaker}}</p>
-          {% endif %}
-          <p class="event_date">{{ event.standard_date }} {{event.time}}</p>
-        </div>
+        <p class="event_date">{{ event.standard_date }} {{event.time}}</p>
       </div>
-    </a>
-  </div>
+    </div>
+  </a>
+</div>
 {% endfor %}
 
 <!-- js script to get today's date -->
@@ -84,3 +134,18 @@ layout: home
     if ($(this).attr("upcoming-date") < getCompareDate()) $(this).hide();
   });
 </script>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+  crossorigin="anonymous"
+></script>

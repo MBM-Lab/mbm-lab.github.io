@@ -4,7 +4,7 @@ title: "Biomedical Data Analysis"
 description: "The research objectives of Biomedical Data Analysis focus on studying complex biological systems based on omics data, which increasingly characterize scientific research in the biomedical field. Omics data are molecular profiles of various types (RNA profiles, protein profiles, methylation profiles, genetic profiles), and their study has revolutionized biological research by allowing simultaneous reading of all elements of a class of molecules (RNA, proteins, etc.) present in a biological system at a certain moment. The Data Analysis group's research focuses on new methods of interpreting this data to address problems such as drug resistance in certain types of tumors (in collaboration with a group from the Human Technopole), the mechanisms underlying neurodegenerative diseases (collaboration with the University of Bologna, CIBIO, and Aptuit), the identification of molecular biomarkers for diagnostic and prognostic use (collaboration with GSK Vaccines), and the metabolic alterations related to the interaction between diet and an individual's genotype (collaboration with Nestle Institute of Health Sciences). Many of these projects have also been carried out in collaboration with researchers from the COSBI Institute, which provides opportunities for numerous collaborations, especially in the pharmaceutical and academic fields."
 ---
 
-## Lauria
+## Biomedical Data Analysis
 
 Our research interests include the analysis of different types of high dimensionality data of interest in Molecular Biology and in the Biomedical field. Examples of data types we have worked on include molecular profiles (mRNA, miRNA, proteins), time series (sensor data, clinical variables from longitudinal studies), usage data of smartphone apps for clinical use.  Another topic we are interested in is the inference and application of networks, particularly those commonly employed in Systems Biology to represent gene/protein interactions. Most of these lines of research are carried out in collaboration with the Microsoft Research - University of Trento Centre for Computational and Systems Biology (COSBI) in Rovereto.  
 
@@ -46,7 +46,7 @@ Ospedale Sacro Cuore Don Calabria, Negrar di Valpolicella (VR) - Massimo Guerrie
 
 Please contact Prof. Lauria if you are interested in research projects regarding possible topics for a master thesis or a PhD in applied mathematics/computational biology..
 
-## Vinciotti
+## Advanced Statistical Methods for Complex Data in Biomedicine
 
 ### Description
 
@@ -54,13 +54,15 @@ We are interested in the development of statistical methodology and computationa
 
 ### Main research topics
 
-Regularized inference for high-dimensional data
+#### Regularized inference for high-dimensional data
+
 We study the penalised inferential framework in the context of graphical modelling, that is for the estimation of the inverse of the covariance matrix. We develop efficient computational methods for solving the estimating equations, in a variety of (non-standard) settings such as non-Gaussian and missing/censored data.
 
-Reconstruction of biological networks
+#### Reconstruction of biological networks
+
 We apply graphical modelling approaches to the inference of biological networks from high-throughput genomic data. We develop bespoke models that adapt to the richness, heterogeneity and complexity of genomic data and implement efficient frequentist and Bayesian inferential schemes for statistical inference. In recent years, we have conducted extensive research on the reconstructing of transcriptomic networks and microbiota systems.
 
-Statistical inference of quasi-reaction systems
+#### Statistical inference of quasi-reaction systems
 
 We develop statistical methods for the inference of parameters of dynamic processes, such as cell differentiation and disease spreading, that can be characterized via quasi-reaction systems of stochastic differential equations. Recently, we are particularly interested in developing methods that combine local linear approximation procedures with event-history analyses. 
 

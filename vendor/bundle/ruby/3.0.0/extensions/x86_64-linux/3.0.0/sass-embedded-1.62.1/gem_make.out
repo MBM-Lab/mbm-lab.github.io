@@ -1,0 +1,11 @@
+current directory: /home/lucas/git/mbm-lab.github.io/vendor/bundle/ruby/3.0.0/gems/sass-embedded-1.62.1/ext/sass
+/usr/bin/ruby3.0 -I/usr/lib/ruby/vendor_ruby -rrubygems /home/lucas/git/mbm-lab.github.io/vendor/bundle/ruby/3.0.0/gems/rake-10.5.0/bin/rake RUBYARCHDIR\=/home/lucas/git/mbm-lab.github.io/vendor/bundle/ruby/3.0.0/extensions/x86_64-linux/3.0.0/sass-embedded-1.62.1 RUBYLIBDIR\=/home/lucas/git/mbm-lab.github.io/vendor/bundle/ruby/3.0.0/extensions/x86_64-linux/3.0.0/sass-embedded-1.62.1
+fetch https://github.com/sass/dart-sass-embedded/releases/download/1.62.1/sass_embedded-1.62.1-linux-x64.tar.gz
+rake aborted!
+ArgumentError: wrong number of arguments (given 2, expected 1)
+/home/lucas/git/mbm-lab.github.io/vendor/bundle/ruby/3.0.0/gems/sass-embedded-1.62.1/ext/sass/Rakefile:117:in `unarchive'
+/home/lucas/git/mbm-lab.github.io/vendor/bundle/ruby/3.0.0/gems/sass-embedded-1.62.1/ext/sass/Rakefile:22:in `block in <top (required)>'
+Tasks: TOP => default => install => embedded.rb => sass_embedded
+(See full trace by running task with --trace)
+
+rake failed, exit code 1

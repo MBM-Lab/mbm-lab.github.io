@@ -138,7 +138,7 @@ These are our current main collaborators:
 
 ### Thesis proposals
 
-Please contact Prof. Müller if you are interested in research projects regarding possible topics for your master thesis or our PhD in applied mathematics.
+Please contact [Prof. Müller](https://webapps.unitn.it/du/it/Persona/PER0027674/Pubblicazioni) if you are interested in research projects regarding possible topics for your master thesis or our PhD in applied mathematics.
 
 ## Cardiac Modelling
 
@@ -178,3 +178,7 @@ Active materials undergo deformations also in absence of mechanical stresses. Ex
 
 We develop and maintain several software packages for the simulation of cardiac electrophysiology, such as Propeiko and Propag-5. Propag-5 is a well-established software capable of simulating large-scale problems, such as those arising in atrial fibrillation, on supercomputing centers by exploiting multiple nodes via MPI, multiple cores via OpenMP and GPU accelerators with CUDA. Propeiko is a fast ECG simulator based on the anisotropic eikonal equation and lead field formulation of the forward bidomain model. Propeiko runs almost real-time on GPU, enabling interactive solution and fast uncertainty quantification and parameter inference. Moreover, it compares favorably to high-fidelity
 simulations with the full, time-consuming reaction-diffusion EP model.
+
+### Thesis proposals
+
+Please contact [Prof. Pezzuto](https://webapps.unitn.it/du/it/Persona/PER0251606/Curriculum) if you are interested in research projects regarding possible topics for your master thesis or our PhD in applied mathematics.

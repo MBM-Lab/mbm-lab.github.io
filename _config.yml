@@ -32,6 +32,8 @@ collections:
       output: true
     master:
       output: true
+    phd:
+      output: true
     postdoc:
       output: true
     teaching:

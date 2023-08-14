@@ -293,12 +293,12 @@
 <!-- commented to remove meta data about article (e.g. title + date of publication) -->
                 <!--<article itemscope itemtype="http://schema.org/WebPage">-->
 
-                <!--<div class="article__header"><header><h1>Mathematical Epidemiology</h1></header></div><meta itemprop="headline" content="Mathematical Epidemiology"><div class="article__info clearfix"><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>Aug 11, 2023</span>
-            </li></ul></div><meta itemprop="author" content="Davide Carlomagno"/><meta itemprop="datePublished" content="2023-08-11T13:06:26+02:00">-->
+                <!--<div class="article__header"><header><h1>Mathematical Epidemiology</h1></header></div><meta itemprop="headline" content="Mathematical Epidemiology"><div class="article__info clearfix"><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>Aug 14, 2023</span>
+            </li></ul></div><meta itemprop="author" content="Davide Carlomagno"/><meta itemprop="datePublished" content="2023-08-14T11:55:51+02:00">-->
 
                     <div class="js-article-content"><h1>Mathematical Epidemiology</h1>
 
-<p><h3 id="description">Description</h3>
+<div class="txt-justify"><h3 id="description">Description</h3>
 
 <p>The research activity of the group coordinated by Andrea Pugliese, currently including dr. Rachele Nieri (fixed-term researcher) and dr. Sara Sottile (post-doc) has been almost entirely devoted to the formulation and analysis of mathematical models in epidemiology and ecology.</p>
 
@@ -398,14 +398,19 @@ Finally, we have started contacts with the Department of Public Health of the Un
 
 <p>We are available for offering Master’s or PhD thesis on any of the areas illustrated above. If interested, please contact <a href="https://webapps.unitn.it/du/it/Persona/PER0003043/Curriculum">Prof. Pugliese</a> for agreeing on a possible topic for a thesis.</p>
 
-</p>
+</div>
 
 <script>
     let imagesNodes = document.querySelectorAll('img');
     let imagesArray = [...imagesNodes];
 
+    // wrap all images but the first one in a div 
     imagesArray.slice(1).map((img) => { // remove header logo image
-        img.classList.add('img-styling');
+        let div = document.createElement('div');
+        div.classList.add('img-wrapper');
+        img.classList.add('sub-research-img');
+        img.parentElement.insertBefore(div, img);
+        div.appendChild(img);
     });
 
     // convert all h4 tags and right following div into collapsible

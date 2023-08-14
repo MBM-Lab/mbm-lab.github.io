@@ -293,12 +293,12 @@
 <!-- commented to remove meta data about article (e.g. title + date of publication) -->
                 <!--<article itemscope itemtype="http://schema.org/WebPage">-->
 
-                <!--<div class="article__header"><header><h1>Biomedical Statistics and Data Science</h1></header></div><meta itemprop="headline" content="Biomedical Statistics and Data Science"><div class="article__info clearfix"><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>Aug 11, 2023</span>
-            </li></ul></div><meta itemprop="author" content="Davide Carlomagno"/><meta itemprop="datePublished" content="2023-08-11T13:06:26+02:00">-->
+                <!--<div class="article__header"><header><h1>Biomedical Statistics and Data Science</h1></header></div><meta itemprop="headline" content="Biomedical Statistics and Data Science"><div class="article__info clearfix"><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>Aug 14, 2023</span>
+            </li></ul></div><meta itemprop="author" content="Davide Carlomagno"/><meta itemprop="datePublished" content="2023-08-14T11:55:51+02:00">-->
 
                     <div class="js-article-content"><h1>Biomedical Statistics and Data Science</h1>
 
-<p><h2 id="biomedical-data-analysis">Biomedical Data Analysis</h2>
+<div class="txt-justify"><h2 id="biomedical-data-analysis">Biomedical Data Analysis</h2>
 
 <p>Our research interests include the analysis of different types of high dimensionality data of interest in Molecular Biology and in the Biomedical field. Examples of data types we have worked on include molecular profiles (mRNA, miRNA, proteins), time series (sensor data, clinical variables from longitudinal studies), usage data of smartphone apps for clinical use.  Another topic we are interested in is the inference and application of networks, particularly those commonly employed in Systems Biology to represent gene/protein interactions. Most of these lines of research are carried out in collaboration with the Microsoft Research - University of Trento Centre for Computational and Systems Biology (COSBI) in Rovereto.</p>
 
@@ -368,14 +368,19 @@ Ospedale Sacro Cuore Don Calabria, Negrar di Valpolicella (VR) - Massimo Guerrie
 <h3 id="thesis-proposals-1">Thesis proposals</h3>
 
 <p>Please contact <a href="https://webapps.unitn.it/du/it/Persona/PER0222143/Curriculum">Prof. Vinciotti</a> if you are interested in research projects regarding possible topics for your master thesis or PhD in statistics.</p>
-</p>
+</div>
 
 <script>
     let imagesNodes = document.querySelectorAll('img');
     let imagesArray = [...imagesNodes];
 
+    // wrap all images but the first one in a div 
     imagesArray.slice(1).map((img) => { // remove header logo image
-        img.classList.add('img-styling');
+        let div = document.createElement('div');
+        div.classList.add('img-wrapper');
+        img.classList.add('sub-research-img');
+        img.parentElement.insertBefore(div, img);
+        div.appendChild(img);
     });
 
     // convert all h4 tags and right following div into collapsible

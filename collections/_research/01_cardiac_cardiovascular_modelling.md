@@ -14,9 +14,9 @@ We are interested in the description of bodily fluids dynamics by means of mathe
 
 This research topic is deeply rooted in our group since our main fields of work are numerical analysis and scientific computing. We have specialized over time on designing numerical methods that perform well for the modeling of problems that our group approaches. In particular, since we mainly work with network models in which flow dynamics are described by one-dimensional models, we have focused on the development of numerical methods for hyperbolic (or hyperbolic-dominant) partial differential equations applied on networks of one-dimensional domains and possibly coupled to geometrically heterogeneous models arising from the need to couple vascular models to peripheral circulation models or surrounding tissues.
 
-<!-- ![alt](/assets/ref_p_4.png) -->
+![alt](/assets/ref_p_4.png)
 
-<!-- Propagation of a pressure wave over a network of vessels (vertical dashed lines show bifurcation points) computed using different modelling and numerical strategies. Image taken from [this paper.](https://doi.org/10.1016/j.jcp.2016.03.012) -->
+Propagation of a pressure wave over a network of vessels (vertical dashed lines show bifurcation points) computed using different modelling and numerical strategies. Image taken from [this paper.](https://doi.org/10.1016/j.jcp.2016.03.012)
 
 #### Robust numerical methods for variable properties and collapse
 
@@ -39,11 +39,11 @@ The methods developed so far have been always applied to blood flow problems. Ho
 
 We have developed very complex models for the cardiovascular system, including large networks of arteries and veins, as well as other components of the cardiovascular systems. These models are rather unique, especially the one developed with Prof. Eleuterio Toro (University of Trento, Italy) since 2014, as well as a newer and more complex model developed in collaboration with Prof. Blanco (National Laboratory for Scientific Computing, Brazil). Besides representing an excellent scenario for developing numerical schemes for hyperbolic PDEs on networks, they are the backbone on which we are building an in-silico “physiology lab” for the study of many aspects of cardiovascular physiology that are still unclear. Our modeling effort regards also the CerebroSpinal Fluid (CSF) and its interaction with blood vessels, as well as the lymphatic system. This project also involves the need to use experimental data, and thus to adopt and develop data assimilation tools and to interact with laboratories that gather physiological data. This project is a distinctive aspect of our research group and focuses on understanding physiology rather than on concrete medical applications.
 
-<!-- ![alt](/assets/GM2-eps-converted-to.png)
+![alt](/assets/GM2-eps-converted-to.png)
 
-![alt](/assets/adavn.png) -->
+![alt](/assets/adavn.png)
 
-<!-- Overview of a global model for human circulation and CSF/brain dynamics (top) and of the Anatomically Detailed Arterial-Venous network model (bottom). Images taken from [this](https://doi.org/10.1002/cnm.3532) and [this paper.](https://doi.org/10.3389/fphys.2023.1162391) -->
+Overview of a global model for human circulation and CSF/brain dynamics (top) and of the Anatomically Detailed Arterial-Venous network model (bottom). Images taken from [this](https://doi.org/10.1002/cnm.3532) and [this paper.](https://doi.org/10.3389/fphys.2023.1162391)
 
 #### Assessing the interaction of cerebral blood flow, cerebrospinal fluids and brain dynamics. 
 
@@ -73,9 +73,9 @@ Blood and cerebrospinal fluid are not the only fluids in the body. From the many
 
 This research topic brings us very close to the clinic. The aim here is to reproduce haemodynamic indexes that are normally acquired via invasive measurements, by using medical imaging and mechanistic models. This is a complex task which involves strong interaction with clinicians, securing the necessary data to develop a methodology and the clinical validation of the resulting method. 
 
-<!-- ![alt](/assets/mlffr.png) -->
+![alt](/assets/mlffr.png) -->
 
-<!-- Pipeline for non-invasive machine learning- and model-based Fractional Flow Reserve prediction. Image taken from [this paper.](https://doi.org/10.1016/j.cma.2021.113892) -->
+Pipeline for non-invasive machine learning- and model-based Fractional Flow Reserve prediction. Image taken from [this paper.](https://doi.org/10.1016/j.cma.2021.113892)
 
 ####  Non-invasive estimation of FFR
 
@@ -90,9 +90,9 @@ iFR is an index for assessing the functionality of coronary artery disease. It i
 
 This is a project related to fluid exchange in the brain. This is a very active area of research in human physiology, since it is postulated that deficiencies in waste clearance mechanisms could be at the basis of many neurodegenerative diseases. We are interested in the coupling of pulsating blood and the surrounding tissue, as well as in the effect that pulse wave propagation has on brain-specific structures that are considered as potentially crucial pathways for fast transport in the brain.
 
-<!-- ![alt](/assets/corner_tree_t1.png) -->
+![alt](/assets/corner_tree_t1.png)
 
-<!-- Impact of blood pressure pulse propagation in the deformation of elastic tissue to model mechanical coupling phenomena in vascularized tissues. Image taken from [this paper.](https://doi.org/10.1007/s10439-021-02804-0) -->
+Impact of blood pressure pulse propagation in the deformation of elastic tissue to model mechanical coupling phenomena in vascularized tissues. Image taken from [this paper.](https://doi.org/10.1007/s10439-021-02804-0)
 
 
 ####  Mechanical coupling of 1D blood flow in vessels and 3D tissue
@@ -141,8 +141,6 @@ These are our current main collaborators:
 Please contact [Prof. Müller](https://webapps.unitn.it/du/it/Persona/PER0027674/Pubblicazioni) if you are interested in research projects regarding possible topics for your master thesis or our PhD in applied mathematics.
 
 ## Cardiac Modelling
-
-<!-- ![alt](/assets/safari-pinned-tab.svg) -->
 
 Pezzuto’s group activities lie at the intersection of mathematical biology, numerical analysis, and human physiology. Organ-scale models, such as for the heart, require special care in developing effective numerical schemes for their simulation. Cardiac models are multi-physics and multi-scale, and their simulation requires supercomputers. Therefore, the group is developing novel multi-fidelity approaches based on scientific machine learning and simplified physics (e.g., the eikonal equation) for real-time simulation of cardiac models.
 

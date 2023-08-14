@@ -4,14 +4,19 @@ layout: page
 
 <h1>{{page.title}}</h1>
 
-<p>{{content}}</p>
+<div class="txt-justify">{{content}}</div>
 
 <script>
     let imagesNodes = document.querySelectorAll('img');
     let imagesArray = [...imagesNodes];
 
+    // wrap all images but the first one in a div 
     imagesArray.slice(1).map((img) => { // remove header logo image
-        img.classList.add('img-styling');
+        let div = document.createElement('div');
+        div.classList.add('img-wrapper');
+        img.classList.add('sub-research-img');
+        img.parentElement.insertBefore(div, img);
+        div.appendChild(img);
     });
 
     // convert all h4 tags and right following div into collapsible

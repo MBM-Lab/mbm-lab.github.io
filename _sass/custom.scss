@@ -2,7 +2,6 @@
 
 html {
     overflow-x: hidden;
-    text-align: justify;
 }
 
 // HOME - INDEX PAGE
@@ -11,6 +10,10 @@ html {
 //     width: 100%;
 //     background-color: rgb(79, 99, 39);
 // }
+
+.txt-justify {
+    text-align: justify;
+}
 
 // CAROUSEL
 
@@ -23,15 +26,20 @@ html {
     background-color: rgb(79, 99, 39);
 }
 
+.carousel-item.active {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
 .hero_img_wrapper {
-    width: 100%;
-    min-height: 375px;
-    
+    height: 375px;
+
     .carousel-item {
-        
+
         .hero_img {
-            object-fit: cover;
             padding-inline: 25%;
+            max-width: 100%;
             height: 375px;
         }
     }
@@ -287,11 +295,22 @@ a {
 
 // SUB-RESEARCH-PAGE
 
-.img-styling {
+.img-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 225px;
     width: 100%;
+    
     border: 1px solid black;
     border-radius: 10px;
-    max-height: 225px;
+    
+    background-color: rgb(79, 99, 39);
+}
+
+.sub-research-img {
+    height: 225px;
 }
 
 .collapsed-div {

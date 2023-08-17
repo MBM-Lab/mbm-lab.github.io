@@ -6204,12 +6204,12 @@ html {
   text-align: justify;
 }
 
-.green_bars {
+.white_bars {
   position: relative;
   left: -50%;
   width: 200%;
   height: 375px;
-  background-color: rgb(79, 99, 39);
+  background-color: white;
 }
 
 .carousel-item.active {
@@ -6422,9 +6422,9 @@ a h2 {
   align-items: center;
   height: 225px;
   width: 100%;
-  border: 1px solid black;
+  outline: 1px solid black;
   border-radius: 10px;
-  background-color: rgb(79, 99, 39);
+  background-color: white;
 }
 
 .sub-research-img {

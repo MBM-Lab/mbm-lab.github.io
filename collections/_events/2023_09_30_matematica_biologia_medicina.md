@@ -4,7 +4,7 @@ title: "WORKSHOP - Matematica per la biologia e la medicina: un nuovo laboratori
 speaker: 
 standard_date: "30th Sept 2023"
 time: 
-where: "Trento"
+where: "Palazzo Consolati, via S. Maria Maddalena 1, Trento"
 zoom_link: 
 zoom_meeting_id: 
 zoom_passcode: 
@@ -18,37 +18,37 @@ links: ""
 
 **8:45 - 9:00** Saluti istituzionali e presentazione del laboratorio.
 
-**9:00 - 9:10** Bonmassari - UO Cardiologia, APSS - "Dove si incontrano e si incontreranno matematica e cardiologia"
+**9:00 - 9:10 Dott. Roberto Bonmassari** - UO Cardiologia, APSS - "Dove si incontrano e si incontreranno matematica e cardiologia"
 
-**9:10 - 9:20** Frau - UO Otorinolaringoiatria, APSS - “Ruolo del sistema di scarico venoso cranio-cervicale nella patologia dell'orecchio interno”
+**9:10 - 9:20 Dott. Giuseppe Frau** - UO Otorinolaringoiatria, APSS - “Ruolo del sistema di scarico venoso cranio-cervicale nella patologia dell'orecchio interno”
 
-**9:20 - 9.30** Bonvini - UO multizonale di Chirurgia Vascolare, APSS
+**9:20 - 9.30 Dott. Stefano Bonvini** - UO multizonale di Chirurgia Vascolare, APSS
 
-**9:30 - 9:45** Müller - MBM Lab, Dip. Matematica, UniTrento - “Modellazione matematica per lo studio della fisiologia e patologia cardiovascolare”
+**9:30 - 9:45 Prof. Lucas Müller** - MBM Lab, Dip. Matematica, UniTrento - “Modellazione matematica per lo studio della fisiologia e patologia cardiovascolare”
 
 
-**9:45 - 9:55** Casagranda - UO Radiologia, APSS - "Radiologia e matematica: passato, presente e ... futuro"
+**9:45 - 9:55 Dott.ssa Giulia Casagranda** - UO Radiologia, APSS - "Radiologia e matematica: passato, presente e ... futuro"
 
-**9:55 -10:05** Nardelli - UO Pneumologia, APSS
+**9:55 -10:05 Dott. Romano Nardelli** - UO Pneumologia, APSS
 
-**10:05 - 10:15** Del Greco - UO Cardiologia, APSS
+**10:05 - 10:15 Dott. Maurizio Del Greco** - UO Cardiologia, APSS
 
-**10:15 - 10:30** Pezzuto - MBM Lab, Dip. Matematica, UniTrento - “Gemelli digitali per una cardiologia di precisione”
+**10:15 - 10:30 Dott. Simone Pezzuto** - MBM Lab, Dip. Matematica, UniTrento - “Gemelli digitali per una cardiologia di precisione”
 
 **10:30 - 11:00**  Break
 
-**11:00 - 11:10** Zuccali (da confermare) - Servizio Prevenzione, APSS
+**11:00 - 11:10 Dott. Paolo Mulatti** - Istituto Zooprofilattico Sperimentale delle Venezie
 
-**11:10 - 11:20** Merler -  Centro Health Emergencies, FBK
+**11:10 - 11:20 Dott. Stefano Merler** -  Centro Health Emergencies, FBK
 
-**11:20 - 11:35** Pugliese - MBM Lab, Dip. Matematica, UniTrento
+**11:20 - 11:35 Prof. Andrea Pugliese** - MBM Lab, Dip. Matematica, UniTrento
 
 
-**11:35 - 11:45** Malaguti - UO Neurologia, APSS
+**11:35 - 11:45 Dott.ssa Maria Chiara Malaguti** - UO Neurologia, APSS
 
-**11:45 - 11:55** Guerriero - Biostatistica, Consulente
+**11:45 - 11:55 Dott. Massimo Guerriero** - Biostatistica, Consulente
 
-**11:55 - 12:10** Lauria - MBM Lab, Dip. Matematica, UniTrento
+**11:55 - 12:10 Prof. Mario Lauria** - MBM Lab, Dip. Matematica, UniTrento
 
 Per visualizzare il programma completo vedere la [locandina][1].
 

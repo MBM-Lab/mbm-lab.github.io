@@ -14,6 +14,9 @@ In questo workshop si presenteranno le attività del Laboratorio. Si illustreran
 links: ""
 ---
 
+## Registrazione:
+L'ingresso all'evento è libero. Si richiede la registrazione tramite la compilazione del seguente [form.](https://docs.google.com/forms/d/e/1FAIpQLSfj8BAvxUUSJMGcbY_qDM1XRbR7JqA5Ta34ev78mypa0b1iSA/viewform)
+
 ## Programma:
 
 **8:45 - 9:00** Saluti istituzionali e presentazione del laboratorio.
@@ -31,24 +34,25 @@ links: ""
 
 **9:55 -10:05 Dott. Romano Nardelli** - UO Pneumologia, APSS
 
-**10:05 - 10:15 Dott. Maurizio Del Greco** - UO Cardiologia, APSS
+**10:05 - 10:15 Dott. Maines Massimiliano** - UO Cardiologia, APSS - "Modelli computazionali predittivi dell’attivazione elettrica del ventricolo sinistro"
 
 **10:15 - 10:30 Dott. Simone Pezzuto** - MBM Lab, Dip. Matematica, UniTrento - “Gemelli digitali per una cardiologia di precisione”
 
 **10:30 - 11:00**  Break
 
-**11:00 - 11:10 Dott. Paolo Mulatti** - Istituto Zooprofilattico Sperimentale delle Venezie
+**11:00 - 11:10 Dott. Paolo Mulatti** - Istituto Zooprofilattico Sperimentale delle Venezie - "Influenza Aviaria: Tra Ecologia ed Epidemiologia"
 
-**11:10 - 11:20 Dott. Stefano Merler** -  Centro Health Emergencies, FBK
+**11:10 - 11:20 Dott. Stefano Merler** -  Centro Health Emergencies, FBK - "Matematica delle malattie infettive"
 
-**11:20 - 11:35 Prof. Andrea Pugliese** - MBM Lab, Dip. Matematica, UniTrento
+**11:20 - 11:35 Prof. Andrea Pugliese** - MBM Lab, Dip. Matematica, UniTrento -"Esperienze di applicazioni di modelli matematica in ecologia e epidemiologia"
 
 
-**11:35 - 11:45 Dott.ssa Maria Chiara Malaguti** - UO Neurologia, APSS
+**11:35 - 11:45 Dott.ssa Maria Chiara Malaguti** - UO Neurologia, APSS - "Studio multicentrico italiano NeuroartP3: analisi dei dati per una medicina predittiva, preventiva e personalizzata nella malattia di Parkinson"
 
-**11:45 - 11:55 Dott. Massimo Guerriero** - Biostatistica, Consulente
+**11:45 - 11:55 Dott. Massimo Guerriero** - Biostatistica, Consulente - "Telemedicina e real world evidence: nuove esigenze di analisi dei dati"
 
-**11:55 - 12:10 Prof. Mario Lauria** - MBM Lab, Dip. Matematica, UniTrento
+**11:55 - 12:10 Prof. Mario Lauria** - MBM Lab, Dip. Matematica, UniTrento - "Un caso di studio di analisi di dati in ambito clinico: aderenza all'uso della
+app iColon da parte di un gruppo di recipienti di chirurgia al colon"
 
 Per visualizzare il programma completo vedere la [locandina][1].
 

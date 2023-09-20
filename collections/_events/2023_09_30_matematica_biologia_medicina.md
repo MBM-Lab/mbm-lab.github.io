@@ -25,14 +25,14 @@ L'ingresso all'evento è libero. Si richiede la registrazione tramite la compila
 
 **9:10 - 9:20 Dott. Giuseppe Frau** - UO Otorinolaringoiatria, APSS - “Ruolo del sistema di scarico venoso cranio-cervicale nella patologia dell'orecchio interno”
 
-**9:20 - 9.30 Dott. Stefano Bonvini** - UO multizonale di Chirurgia Vascolare, APSS
+**9:20 - 9.30 Dott. Igor Raunig** - UO multizonale di Chirurgia Vascolare, APSS - "Chirurgia vascolare 3.0"
 
 **9:30 - 9:45 Prof. Lucas Müller** - MBM Lab, Dip. Matematica, UniTrento - “Modellazione matematica per lo studio della fisiologia e patologia cardiovascolare”
 
 
 **9:45 - 9:55 Dott.ssa Giulia Casagranda** - UO Radiologia, APSS - "Radiologia e matematica: passato, presente e ... futuro"
 
-**9:55 -10:05 Dott. Romano Nardelli** - UO Pneumologia, APSS
+**9:55 -10:05 Dott. Romano Nardelli** - UO Pneumologia, APSS - "Cronicità respiratoria e matematica: un matrimonio possibile grazie alla tecnologia?"
 
 **10:05 - 10:15 Dott. Maines Massimiliano** - UO Cardiologia, APSS - "Modelli computazionali predittivi dell’attivazione elettrica del ventricolo sinistro"
 

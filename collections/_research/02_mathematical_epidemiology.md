@@ -2,7 +2,16 @@
 layout: sub_research_page
 title: "Mathematical Epidemiology"
 description: "For many years, there has been ongoing research on epidemic spread models in humans and other animals, in close collaboration with FBK, FEM, and numerous universities and research centers. Through mathematical models, we have analyzed seasonal influenza epidemics, as well as the 2009 influenza pandemic, studying the effects of control strategies ranging from social distancing interventions to the preventive use of antiviral drugs and vaccination. Another research topic has been vector-borne infections (particularly mosquitoes), analyzing the potential for the spread of tropical diseases such as dengue or chikungunya depending on the timing and location of a case’s entry into Italy, and studying the factors that contribute most to the increase in human cases of West Nile virus. The pandemic caused by the SARS-CoV2 virus has demonstrated the potential of mathematical modeling to infer key epidemic parameters from partial and “noisy” data and to provide scenario analyses following possible interventions."
+# table of contents
+# toc:
+#     research1:
+#       title: "Mathematical Epidemiology"
+#       anchor: "mathematical-epidemiology"
+#       imgLink:
+#       contact: Prof. Pugliese
 ---
+
+## Mathematical Epidemiology
 
 ### Description
 
@@ -28,8 +37,8 @@ A related ongoing project concerns a coupled info-epidemic system for misinforma
 ##### Epidemics on complex structures
 
 Most classical epidemic models assume that all individuals mix homogeneously. It is clear that such an assumption is far from reality, and different models have been proposed in which such an assumption is relaxed. We have considered a deterministic SAIRS epidemic model (with asymptomatic and symptomatic infections) in a multi-group setting (i.e., it is assumed that homogeneous mixing occurs within each group, while a matrix describes infectious contacts between subpopulations), obtaining conditions for the global asymptotic stability of the endemic equilibrium. In the limit when the number of groups is very large, but each has a small size, one obtains the (stochastic) epidemic models in households; in this case, we have been exploring what is the effect on the overall epidemic dynamics of sudden changes in contact rates in one only of the settings, mimicking the effect of lock-downs or other restrictions of contacts. Another type of modelling involves contact networks in which infections occur only when a susceptible and an infected individual are connected through a link; in this setting, we have both analysed simulations of synthetic networks, and studied the behaviour of deterministic models obtained through the so-called pair approximation.
- 
- 
+
+
 ##### Use of methods from singular perturbation theory in the analysis of epidemic models.
 
 In models for endemic infectious diseases there is a natural difference in time-scales between the infection period and the period of susceptible recruitment by new births or immunity loss. The systems are not in the standard form of singular perturbation theory with slow and fast equations, but it is still possible to divide the flow into slow and fast parts, and to use the entry-exit map to characterize the exit from the fast flow.
@@ -46,7 +55,7 @@ Finally, we have started contacts with the Department of Public Health of the Un
 ### Collaborations
 
 ##### Dynamics of vector-borne infections:
--   	Marco Tamba, Mattia Calzolari and collaborators, Istituto 
+-   	Marco Tamba, Mattia Calzolari and collaborators, Istituto
 
 ##### Zooprofilattico Sperimentale di Lombardia ed Emilia-Romagna:
 -   	Gioia Capelli and collaborators, Istituto Zooprofilattico Sperimentale delle Venezie
@@ -89,4 +98,4 @@ Finally, we have started contacts with the Department of Public Health of the Un
 
 We are available for offering Master’s or PhD thesis on any of the areas illustrated above. If interested, please contact [Prof. Pugliese](https://webapps.unitn.it/du/it/Persona/PER0003043/Curriculum) for agreeing on a possible topic for a thesis.
 
-
+---

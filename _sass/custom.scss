@@ -22,7 +22,7 @@ html {
     left: -50%;
     width: 200%;
     height: 375px;
-    
+
     background-color: white;
 }
 
@@ -63,7 +63,7 @@ ul {
 .cards_people_wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    
+
     .card_person {
         display: flex;
         justify-content: center;
@@ -76,7 +76,7 @@ ul {
         border-radius: 10px;
 
         box-shadow: 2px 5px 10px rgba(0,0,0,.1);
-        
+
         // a {
         //     color: black;
         // }
@@ -97,11 +97,6 @@ ul {
         list-style: none;
     }
 }
-
-// RESEARCH PAGE
-.research_card_wrapper {
-}
-
 
 // TEACHING PAGE
 
@@ -127,9 +122,9 @@ a {
     margin: 10px;
     border: 1px solid #e6e6e6;
     border-radius: 10px;
-    
+
     box-shadow: 2px 5px 10px rgba(0,0,0,.1);
-    
+
     img {
         border-radius: 10px;
         border: 1px solid rgba(0,0,0,.75);
@@ -139,7 +134,7 @@ a {
         position: relative;
         display: flex;
         flex-direction: column;
-        
+
         span {
             font-family: 'Space Grotesk', sans-serif;
             position: absolute;
@@ -155,7 +150,7 @@ a {
             left: 0px;
             rotate: 5deg;
         }
-        
+
         .right {
             top: -40px;
             right: 10px;
@@ -230,7 +225,7 @@ a {
 
 // EVENT PAGE
 
-.image_section {    
+.image_section {
     position: relative;
     right: 0%;
 
@@ -240,7 +235,7 @@ a {
     .placeholder {
         object-fit: contain;
     }
-    
+
     img {
         object-fit: cover;
         object-position: 50% 0%;
@@ -295,6 +290,67 @@ a {
 
 // SUB-RESEARCH-PAGE
 
+// table of content
+.tableOfContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .tocList {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+        justify-content: space-between;
+        gap: 25px;
+
+        list-style: none;
+        padding-inline-start: 0;
+
+        cursor: pointer;
+
+
+        @media screen and (max-width: 600px) {
+            flex-direction: column;
+
+            .tocResearch {
+                width: 100%;
+                border: 2px solid red;
+            }
+        }
+
+        .tocResearch {
+            width: 50%;
+            border: 1px solid black;
+            border-radius: 10px;
+
+            @media screen and (max-width: 600px) {
+                width: 100%;
+            }
+
+            a {
+              display: flex;
+              flex-direction: column;
+
+              max-height: fit-content;
+
+              .tocImg {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                max-width: 100%;
+            }
+
+            .tocText {
+                padding: 15px;
+
+                // min-width: 60%;
+           }
+        }
+    }
+}
+
 .img-wrapper {
     display: flex;
     justify-content: center;
@@ -302,10 +358,10 @@ a {
 
     height: 300px;
     width: 100%;
-    
+
     outline: 1px solid black;
     border-radius: 10px;
-    
+
     background-color: white;
 }
 
@@ -329,10 +385,10 @@ a {
 .expand-button {
     align-items: center;
     cursor: pointer;
-    
+
     margin-inline-start: 10px;
     width: 25px;
-    
+
     font-weight: 800;
     font-size: 25px;
 
@@ -358,7 +414,7 @@ a {
 // PUBLICATIONS PAGE
 // .cards_publication_wrapper {
 //     display: grid;
-// }   
+// }
 
 .card_publication {
     display: flex;
@@ -439,5 +495,4 @@ a {
 // * {
 //     border: 1px solid red;
 // }
-
-/* end custom scss snippet */
+} // don't know why is needed

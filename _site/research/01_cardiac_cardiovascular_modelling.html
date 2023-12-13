@@ -293,10 +293,41 @@
 <!-- commented to remove meta data about article (e.g. title + date of publication) -->
                 <!--<article itemscope itemtype="http://schema.org/WebPage">-->
 
-                <!--<div class="article__header"><header><h1>Computational Bodily Fluids and Cardiac Modelling</h1></header></div><meta itemprop="headline" content="Computational Bodily Fluids and Cardiac Modelling"><div class="article__info clearfix"><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>Nov 28, 2023</span>
-            </li></ul></div><meta itemprop="author" content="Davide Carlomagno"/><meta itemprop="datePublished" content="2023-11-28T14:26:11+01:00">-->
+                <!--<div class="article__header"><header><h1>Computational Bodily Fluids and Cardiac Modelling</h1></header></div><meta itemprop="headline" content="Computational Bodily Fluids and Cardiac Modelling"><div class="article__info clearfix"><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>Dec 13, 2023</span>
+            </li></ul></div><meta itemprop="author" content="Davide Carlomagno"/><meta itemprop="datePublished" content="2023-12-13T18:54:22+01:00">-->
 
                     <div class="js-article-content"><h1>Computational Bodily Fluids and Cardiac Modelling</h1>
+
+
+<div class="tableOfContent">
+    <p>In this page you will find:</p>
+    <ul class="tocList">
+        
+        <li class="tocResearch">
+            <a href="#computational-bodily-fluids">
+                
+                <img src="/assets/ref_p_4.png" alt="Computational Bodily Fluids" class="tocImg" />
+                
+                <p class="tocText">
+                    Computational Bodily Fluids -
+                    Reference teacher: Prof. Müller
+                </p>
+            </a>
+        </li>
+        
+        <li class="tocResearch">
+            <a href="#cardiac-modelling">
+                
+                <p class="tocText">
+                    Cardiac Modelling -
+                    Reference teacher: Prof. Pezzuto
+                </p>
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
 
 <div class="txt-justify"><h2 id="computational-bodily-fluids">Computational Bodily Fluids</h2>
 
@@ -438,6 +469,8 @@
 
 <p>Please contact <a href="https://webapps.unitn.it/du/it/Persona/PER0027674/Pubblicazioni">Prof. Müller</a> if you are interested in research projects regarding possible topics for your master thesis or our PhD in applied mathematics.</p>
 
+<hr />
+
 <h2 id="cardiac-modelling">Cardiac Modelling</h2>
 
 <p>Pezzuto’s group activities lie at the intersection of mathematical biology, numerical analysis, and human physiology. Organ-scale models, such as for the heart, require special care in developing effective numerical schemes for their simulation. Cardiac models are multi-physics and multi-scale, and their simulation requires supercomputers. Therefore, the group is developing novel multi-fidelity approaches based on scientific machine learning and simplified physics (e.g., the eikonal equation) for real-time simulation of cardiac models.</p>
@@ -484,7 +517,7 @@ simulations with the full, time-consuming reaction-diffusion EP model.</p>
     let imagesNodes = document.querySelectorAll('img');
     let imagesArray = [...imagesNodes];
 
-    // wrap all images but the first one in a div 
+    // wrap all images but the first one in a div
     imagesArray.slice(1).map((img) => { // remove header logo image
         let div = document.createElement('div');
         div.classList.add('img-wrapper');
@@ -496,11 +529,11 @@ simulations with the full, time-consuming reaction-diffusion EP model.</p>
     // convert all h4 tags and right following div into collapsible
     let h4Nodes = document.querySelectorAll('h4');
     let h4Array = [...h4Nodes];
-    
+
     // add button to h4 to expand and collapse
     h4Array.map((h4) => {
         h4.classList.add('h4-styling');
-        
+
         let parent = h4.parentElement;
 
         let button = document.createElement('button');
@@ -526,7 +559,7 @@ simulations with the full, time-consuming reaction-diffusion EP model.</p>
             // next parent's sibling is the div
             let div = button.parentElement.nextElementSibling;
 
-            if(div.classList.contains("collapsed-div")) {
+            if (div.classList.contains("collapsed-div")) {
                 div.classList.remove("collapsed-div");
                 div.classList.add("expanded-div");
                 button.innerHTML = '-';
@@ -538,7 +571,8 @@ simulations with the full, time-consuming reaction-diffusion EP model.</p>
         });
     });
 
-</script></div><section class="page__comments d-print-none"></section></article><!-- start custom main bottom snippet -->
+</script>
+</div><section class="page__comments d-print-none"></section></article><!-- start custom main bottom snippet -->
 
 <!-- end custom main bottom snippet -->
 </div>

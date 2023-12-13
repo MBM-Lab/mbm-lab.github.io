@@ -2,10 +2,22 @@
 layout: sub_research_page
 title: "Computational Bodily Fluids and Cardiac Modelling"
 description: "The computational bodily fluids group focuses on modeling applied to the quantitative description of the movement of bodily fluids and their interaction with blood vessels and other tissues. The main areas of research are twofold: (i) the construction of highly detailed computational models for studying fundamental questions regarding the physiology and pathology of the cardiovascular system and related systems, and (ii) the study of specific clinical problems that arise in hospital settings (in collaboration with DICAM and DISI). Currently, we collaborate with three local hospitals (S. Maria del Carmine Hospital in Rovereto, Santa Chiara Hospital in Trento, and Civil Hospital in Arco) on various projects, as well as with St. Olav University Hospital (Trondheim, Norway). These models require the discretization of partial and ordinary differential equations in one or more spatial dimensions with complex geometries, as well as the integration of patient-specific data."
+# table of contents
+toc:
+    research1:
+      title: "Computational Bodily Fluids"
+      anchor: "computational-bodily-fluids"
+      imgLink: "/assets/ref_p_4.png"
+      contact: Prof. Müller
+    research2:
+      title: "Cardiac Modelling"
+      anchor: "cardiac-modelling"
+      imgLink:
+      contact: Prof. Pezzuto
 ---
 
 ## Computational Bodily Fluids
- 
+
 ### Description
 
 We are interested in the description of bodily fluids dynamics by means of mathematical models and in the design of efficient numerical methods to obtain accurate and robust approximations of their solutions. We want to answer questions regarding basic cardiovascular physiology and pathology, as well as their link to disease and their impact on other processes such as neurovascular physiology and pathology. We also carry on projects closely linked to the clinic, involving intense dialogue with clinicians from local and international hospitals. All these applications are tackled using mathematical models that describe the underlying physical processes, and numerical methods needed to resolve the mathematical models.
@@ -29,7 +41,7 @@ Dealing with large vascular models implies that spatial scales can vary consider
 #### Enriched 1D blood flow models
 
 Departing from the supine position means modeling large deformations. We propose here to consider additional terms in one-dimensional blood flow models, arising from axial deformation or tethering, as well as from the presence of surrounding tissue, or even to the fact that collapse can be required to model localized pressure losses with distributed models. One-dimensional models can also be enriched by considering extended models that provide a more accurate description of the velocity profile at a given cross-section. All these aspects, and many others, will result in alternative systems of PDEs. Consequently, adopted numerical discretization strategies will need to be adapted.
- 
+
 #### Knowledge transfer to other applications.
 
 The methods developed so far have been always applied to blood flow problems. However, the methodology is general and can be applied to similar problems which involve hyperbolic conservation laws on networks, such as traffic flow, gas and oil transport, water distribution, sewage collection, to name just a few.
@@ -45,9 +57,9 @@ We have developed very complex models for the cardiovascular system, including l
 
 Overview of a global model for human circulation and CSF/brain dynamics (top) and of the Anatomically Detailed Arterial-Venous network model (bottom). Images taken from [this](https://doi.org/10.1002/cnm.3532) and [this paper.](https://doi.org/10.3389/fphys.2023.1162391)
 
-#### Assessing the interaction of cerebral blood flow, cerebrospinal fluids and brain dynamics. 
+#### Assessing the interaction of cerebral blood flow, cerebrospinal fluids and brain dynamics.
 
-We have coupled our blood flow model to a model for cerebrospinal fluid and brain dynamics, which allows us to study the interaction of all these components. We have used this model to describe the impact of venous strictures located in the neck, on intracranial haemodynamics. We are also trying to unveil which are the major determinants of the intracranial pressure waveform. 
+We have coupled our blood flow model to a model for cerebrospinal fluid and brain dynamics, which allows us to study the interaction of all these components. We have used this model to describe the impact of venous strictures located in the neck, on intracranial haemodynamics. We are also trying to unveil which are the major determinants of the intracranial pressure waveform.
 
 ####  Improvement of models of cerebral venous flow
 
@@ -71,7 +83,7 @@ Blood and cerebrospinal fluid are not the only fluids in the body. From the many
 
 ### Non-invasive estimation of haemodynamic indexes
 
-This research topic brings us very close to the clinic. The aim here is to reproduce haemodynamic indexes that are normally acquired via invasive measurements, by using medical imaging and mechanistic models. This is a complex task which involves strong interaction with clinicians, securing the necessary data to develop a methodology and the clinical validation of the resulting method. 
+This research topic brings us very close to the clinic. The aim here is to reproduce haemodynamic indexes that are normally acquired via invasive measurements, by using medical imaging and mechanistic models. This is a complex task which involves strong interaction with clinicians, securing the necessary data to develop a methodology and the clinical validation of the resulting method.
 
 ![alt](/assets/mlffr.png) -->
 
@@ -79,7 +91,7 @@ Pipeline for non-invasive machine learning- and model-based Fractional Flow Rese
 
 ####  Non-invasive estimation of FFR
 
-Fractional Flow Reserve (FFR) is the gold standard method to determine how a stenotic coronary artery should be treated. Our most active project on this front regards a collaboration with Prof. Leif Hellevik’s group at the Norwegian University of Science and Technology (NTNU Trondheim, Norway) on the development of non-invasive methods to estimate hemodynamic indexes used in cardiology. Our collaborators at NTNU have created a large database of patients with stable coronary artery disease and together we have developed a pipeline to non-invasively estimate an index that is normally measured using a pressure sensor that is inserted into the coronary arteries and that requires the use of drugs to elicit maximal blood flow to the heart muscle. 
+Fractional Flow Reserve (FFR) is the gold standard method to determine how a stenotic coronary artery should be treated. Our most active project on this front regards a collaboration with Prof. Leif Hellevik’s group at the Norwegian University of Science and Technology (NTNU Trondheim, Norway) on the development of non-invasive methods to estimate hemodynamic indexes used in cardiology. Our collaborators at NTNU have created a large database of patients with stable coronary artery disease and together we have developed a pipeline to non-invasively estimate an index that is normally measured using a pressure sensor that is inserted into the coronary arteries and that requires the use of drugs to elicit maximal blood flow to the heart muscle.
 
 ####  Defining the best model pipeline for iFR
 
@@ -131,14 +143,16 @@ These are our current main collaborators:
 
 #### International collaborators in biomedical research
 
-* Wayne State University (Detroit, USA): we have collaborated since 2013 with Dr. Haacke, an MRI physicist interested in the imaging of the brain and its vasculature. 
+* Wayne State University (Detroit, USA): we have collaborated since 2013 with Dr. Haacke, an MRI physicist interested in the imaging of the brain and its vasculature.
 * Norwegian University of Science and Technology (NTNU, Trondheim, Norway): we collaborate with the cardiology and radiology departments of the university hospital (St. Olav’s hospital).
-* Bioengineering Institute (Auckland, New Zealand): we collaborate with Dr. Maso Talou on the modeling of blood pressure control mechanisms and with Dr. Reynolds on modeling of the lymphatic system. 
+* Bioengineering Institute (Auckland, New Zealand): we collaborate with Dr. Maso Talou on the modeling of blood pressure control mechanisms and with Dr. Reynolds on modeling of the lymphatic system.
 * The Pennsylvania State University, Department of Engineering Science and Mechanics (USA): we collaborate with Prof. Francesco Costanzo on peri-vascular cerebral flow models.
 
 ### Thesis proposals
 
 Please contact [Prof. Müller](https://webapps.unitn.it/du/it/Persona/PER0027674/Pubblicazioni) if you are interested in research projects regarding possible topics for your master thesis or our PhD in applied mathematics.
+
+---
 
 ## Cardiac Modelling
 

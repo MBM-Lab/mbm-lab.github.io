@@ -6416,7 +6416,55 @@ a h2 {
   color: rgba(0, 0, 0, 0.6);
 }
 
-.img-wrapper {
+.tableOfContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.tableOfContent .tocList {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  gap: 25px;
+  list-style: none;
+  padding-inline-start: 0;
+  cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  .tableOfContent .tocList {
+    flex-direction: column;
+  }
+  .tableOfContent .tocList .tocResearch {
+    width: 100%;
+    border: 2px solid red;
+  }
+}
+.tableOfContent .tocList .tocResearch {
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+@media screen and (max-width: 600px) {
+  .tableOfContent .tocList .tocResearch {
+    width: 100%;
+  }
+}
+.tableOfContent .tocList .tocResearch a {
+  display: flex;
+  flex-direction: column;
+  max-height: fit-content;
+}
+.tableOfContent .tocList .tocResearch a .tocImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+.tableOfContent .tocList .tocResearch a .tocText {
+  padding: 15px;
+}
+.tableOfContent .img-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6426,24 +6474,20 @@ a h2 {
   border-radius: 10px;
   background-color: white;
 }
-
-.sub-research-img {
+.tableOfContent .sub-research-img {
   height: 225px;
 }
-
-.collapsed-div {
+.tableOfContent .collapsed-div {
   display: none;
 }
-
-.expanded-div {
+.tableOfContent .expanded-div {
   display: block;
   padding: 10px;
   margin-block-start: -10px;
   border-radius: 0 0 10px 10px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 }
-
-.expand-button {
+.tableOfContent .expand-button {
   align-items: center;
   cursor: pointer;
   margin-inline-start: 10px;
@@ -6452,8 +6496,7 @@ a h2 {
   font-size: 25px;
   color: rgb(79, 99, 39);
 }
-
-.h4-styling {
+.tableOfContent .h4-styling {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -6463,8 +6506,7 @@ a h2 {
   padding: 10px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
-
-.card_publication {
+.tableOfContent .card_publication {
   display: flex;
   flex-direction: column;
   padding-block: 15px;
@@ -6474,24 +6516,23 @@ a h2 {
   border-radius: 10px;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.1);
 }
-.card_publication a {
+.tableOfContent .card_publication a {
   font-weight: 400;
   word-wrap: break-word;
 }
-.card_publication p {
+.tableOfContent .card_publication p {
   color: black;
 }
-.card_publication .card_info {
+.tableOfContent .card_publication .card_info {
   text-align: left;
 }
-.card_publication img {
+.tableOfContent .card_publication img {
   margin-block-start: -20px;
 }
-
-.footer {
+.tableOfContent .footer {
   min-height: 20vh;
 }
-.footer .university_wrapper {
+.tableOfContent .footer .university_wrapper {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -6499,33 +6540,31 @@ a h2 {
   padding-inline: 20px;
   margin-block-end: 40px;
 }
-.footer .university_wrapper span {
+.tableOfContent .footer .university_wrapper span {
   font-weight: 600;
 }
-.footer .university_wrapper .vl {
+.tableOfContent .footer .university_wrapper .vl {
   border-left: 2px solid rgba(0, 0, 0, 0.25);
   height: 100px;
   left: 50%;
 }
 @media screen and (max-width: 600px) {
-  .footer .university_wrapper .vl {
+  .tableOfContent .footer .university_wrapper .vl {
     display: none;
   }
 }
-.footer .university_wrapper li {
+.tableOfContent .footer .university_wrapper li {
   list-style: none;
 }
-.footer .university_wrapper a {
+.tableOfContent .footer .university_wrapper a {
   font-weight: 400;
 }
 @media screen and (max-width: 600px) {
-  .footer .university_wrapper {
+  .tableOfContent .footer .university_wrapper {
     flex-direction: column;
     justify-content: center;
     text-align: center;
   }
 }
-
-/* end custom scss snippet */
 
 /*# sourceMappingURL=main.css.map */

@@ -293,10 +293,39 @@
 <!-- commented to remove meta data about article (e.g. title + date of publication) -->
                 <!--<article itemscope itemtype="http://schema.org/WebPage">-->
 
-                <!--<div class="article__header"><header><h1>Biomedical Statistics and Data Science</h1></header></div><meta itemprop="headline" content="Biomedical Statistics and Data Science"><div class="article__info clearfix"><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>Nov 28, 2023</span>
-            </li></ul></div><meta itemprop="author" content="Davide Carlomagno"/><meta itemprop="datePublished" content="2023-11-28T14:26:11+01:00">-->
+                <!--<div class="article__header"><header><h1>Biomedical Statistics and Data Science</h1></header></div><meta itemprop="headline" content="Biomedical Statistics and Data Science"><div class="article__info clearfix"><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>Dec 13, 2023</span>
+            </li></ul></div><meta itemprop="author" content="Davide Carlomagno"/><meta itemprop="datePublished" content="2023-12-13T18:54:22+01:00">-->
 
                     <div class="js-article-content"><h1>Biomedical Statistics and Data Science</h1>
+
+
+<div class="tableOfContent">
+    <p>In this page you will find:</p>
+    <ul class="tocList">
+        
+        <li class="tocResearch">
+            <a href="#biomedical-data-analysis">
+                
+                <p class="tocText">
+                    Biomedical Data Analysis -
+                    Reference teacher: Prof. Lauria
+                </p>
+            </a>
+        </li>
+        
+        <li class="tocResearch">
+            <a href="#advanced-statistical-methods-for-complex-data-in-biomedicine">
+                
+                <p class="tocText">
+                    Advanced Statistical Methods for Complex Data in Biomedicine -
+                    Reference teacher: Prof. Vinciotti
+                </p>
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
 
 <div class="txt-justify"><h2 id="biomedical-data-analysis">Biomedical Data Analysis</h2>
 
@@ -338,6 +367,8 @@ Ospedale Sacro Cuore Don Calabria, Negrar di Valpolicella (VR) - Massimo Guerrie
 
 <p>Please contact <a href="https://webapps.unitn.it/du/it/Persona/PER0160323/Curriculum">Prof. Lauria</a> if you are interested in research projects regarding possible topics for a master thesis or a PhD in applied mathematics/computational biology..</p>
 
+<hr />
+
 <h2 id="advanced-statistical-methods-for-complex-data-in-biomedicine">Advanced Statistical Methods for Complex Data in Biomedicine</h2>
 
 <h3 id="description">Description</h3>
@@ -374,7 +405,7 @@ Ospedale Sacro Cuore Don Calabria, Negrar di Valpolicella (VR) - Massimo Guerrie
     let imagesNodes = document.querySelectorAll('img');
     let imagesArray = [...imagesNodes];
 
-    // wrap all images but the first one in a div 
+    // wrap all images but the first one in a div
     imagesArray.slice(1).map((img) => { // remove header logo image
         let div = document.createElement('div');
         div.classList.add('img-wrapper');
@@ -386,11 +417,11 @@ Ospedale Sacro Cuore Don Calabria, Negrar di Valpolicella (VR) - Massimo Guerrie
     // convert all h4 tags and right following div into collapsible
     let h4Nodes = document.querySelectorAll('h4');
     let h4Array = [...h4Nodes];
-    
+
     // add button to h4 to expand and collapse
     h4Array.map((h4) => {
         h4.classList.add('h4-styling');
-        
+
         let parent = h4.parentElement;
 
         let button = document.createElement('button');
@@ -416,7 +447,7 @@ Ospedale Sacro Cuore Don Calabria, Negrar di Valpolicella (VR) - Massimo Guerrie
             // next parent's sibling is the div
             let div = button.parentElement.nextElementSibling;
 
-            if(div.classList.contains("collapsed-div")) {
+            if (div.classList.contains("collapsed-div")) {
                 div.classList.remove("collapsed-div");
                 div.classList.add("expanded-div");
                 button.innerHTML = '-';
@@ -428,7 +459,8 @@ Ospedale Sacro Cuore Don Calabria, Negrar di Valpolicella (VR) - Massimo Guerrie
         });
     });
 
-</script></div><section class="page__comments d-print-none"></section></article><!-- start custom main bottom snippet -->
+</script>
+</div><section class="page__comments d-print-none"></section></article><!-- start custom main bottom snippet -->
 
 <!-- end custom main bottom snippet -->
 </div>

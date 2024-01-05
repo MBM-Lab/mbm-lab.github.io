@@ -1,8 +1,14 @@
 ---
 layout: person_page
 name: Ester Bergantin
-photo: /assets/images/people_portraits/ester_bergantin.jpg
+photo: 
+cv: "In October 2023 I obtained a Master's Degree in Mathematics at the University of Trento, in the track Modeling and Simulation for Biomedical Applications within the curriculum Mathematics and Statistics for Life and Social Sciences. My Master's thesis project involved an internship at the Norwegian University of Science and Technology (NTNU) in Trondheim (Norway). During this internship, I worked on an in silico validation of TAG-based coronary blood flow distribution methods for the patient-specific computational iFR prediction. From November 2023 I am the holder of a PhD scholarship in computational modeling with a focus on cardiovascular problems at the Department of Mathematics of the University of Trento."
+research_interests: "My main research interests include the integration of computational modeling and clinical investigation to advance our understanding of both physiological and pathological cardiac functions and enhance patient care. Specifically, I'm working on the combination of cardiac mechanics models with models of the circulatory system.  Moreover, patient-specific customization and the calibration of biomechanical parameters to match in vivo measurements constitute essential aspects of my research."
+---
+<!-- ---
+layout: person_page
+name: Ester Bergantin
+photo: 
 cv: "In October 2023 I obtained a Master's Degree in Mathematics at the University of Trento, in the track "Modeling and Simulation for Biomedical Applications" within the curriculum "Mathematics and Statistics for Life and Social Sciences". My Master's thesis project involved an internship at the Norwegian University of Science and Technology (NTNU) in Trondheim (Norway). During this internship, I worked on an in silico validation of TAG-based coronary blood flow distribution methods for the patient-specific computational iFR prediction. From November 2023 I am the holder of a PhD scholarship in computational modeling with a focus on cardiovascular problems at the Department of Mathematics of the University of Trento."
 research_interests: "My main research interests include the integration of computational modeling and clinical investigation to advance our understanding of both physiological and pathological cardiac functions and enhance patient care. Specifically, I'm working on the combination of cardiac mechanics models with models of the circulatory system.  Moreover, patient-specific customization and the calibration of biomechanical parameters to match in vivo measurements constitute essential aspects of my research."
-
----
+--- -->

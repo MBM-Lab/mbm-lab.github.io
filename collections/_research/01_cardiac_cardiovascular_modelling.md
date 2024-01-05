@@ -7,7 +7,7 @@ toc:
     research1:
       title: "Computational Bodily Fluids"
       anchor: "computational-bodily-fluids"
-      imgLink: "/assets/ref_p_4.png"
+      imgLink: "/assets/adavn.png"
       contact: Prof. Müller
     research2:
       title: "Cardiac Modelling"
@@ -22,29 +22,6 @@ toc:
 
 We are interested in the description of bodily fluids dynamics by means of mathematical models and in the design of efficient numerical methods to obtain accurate and robust approximations of their solutions. We want to answer questions regarding basic cardiovascular physiology and pathology, as well as their link to disease and their impact on other processes such as neurovascular physiology and pathology. We also carry on projects closely linked to the clinic, involving intense dialogue with clinicians from local and international hospitals. All these applications are tackled using mathematical models that describe the underlying physical processes, and numerical methods needed to resolve the mathematical models.
 
-### Numerical methods for hyperbolic conservation laws on networks
-
-This research topic is deeply rooted in our group since our main fields of work are numerical analysis and scientific computing. We have specialized over time on designing numerical methods that perform well for the modeling of problems that our group approaches. In particular, since we mainly work with network models in which flow dynamics are described by one-dimensional models, we have focused on the development of numerical methods for hyperbolic (or hyperbolic-dominant) partial differential equations applied on networks of one-dimensional domains and possibly coupled to geometrically heterogeneous models arising from the need to couple vascular models to peripheral circulation models or surrounding tissues.
-
-![alt](/assets/ref_p_4.png)
-
-Propagation of a pressure wave over a network of vessels (vertical dashed lines show bifurcation points) computed using different modelling and numerical strategies. Image taken from [this paper.](https://doi.org/10.1016/j.jcp.2016.03.012)
-
-#### Robust numerical methods for variable properties and collapse
-
-When modeling orthostatic stress or the effect of external pressure on vessels ends up dealing with extreme situations. In such cases one wants to have numerical methods with certain properties, in particular the ability to deal with collapse. Another desirable property is that it correctly deals with steady state solutions, including difficulties arising when vessel properties vary in space and when friction terms are to be considered.
-
-#### Efficient numerical methods for hyperbolic conservation laws on networks
-
-Dealing with large vascular models implies that spatial scales can vary considerably. Moreover, considering blood pressure control or the interaction of different body fluids (for example blood and cerebrospinal fluid, blood and lymph, blood and transported gasses) might result in very different time scales. The numerical strategies used to solve models with these properties have to be efficient, which implies they have to offer an optimal tradeoff between accuracy and computational cost. It is well known that this is often achieved with high-order numerical methods. We have so far explored efficient explicit time discretization strategies, their parallelization using shared- and distributed memory parallel computing, as well as the capacity to adaptively select the model to be used. We are currently exploring PDE splitting strategies, and are also interested in exploring alternative discretization strategies, including implicit time discretization schemes.
-
-#### Enriched 1D blood flow models
-
-Departing from the supine position means modeling large deformations. We propose here to consider additional terms in one-dimensional blood flow models, arising from axial deformation or tethering, as well as from the presence of surrounding tissue, or even to the fact that collapse can be required to model localized pressure losses with distributed models. One-dimensional models can also be enriched by considering extended models that provide a more accurate description of the velocity profile at a given cross-section. All these aspects, and many others, will result in alternative systems of PDEs. Consequently, adopted numerical discretization strategies will need to be adapted.
-
-#### Knowledge transfer to other applications.
-
-The methods developed so far have been always applied to blood flow problems. However, the methodology is general and can be applied to similar problems which involve hyperbolic conservation laws on networks, such as traffic flow, gas and oil transport, water distribution, sewage collection, to name just a few.
 
 
 ### Global models for cardiovascular physiology
@@ -116,6 +93,31 @@ Vascularized tissue can be seen as 1D structures that deform within a 3D tissue.
 The transport of substances in the so-called perivascular spaces of cerebral arteries and veins is part of a larger debate about transport mechanisms in the brain. Here we aim at constructing on top of previous work on co-axial flow models with the goal of assessing how the perivascular-space flow acts when we model not a single vessel but a network of vessels, enhancing thus our capacity to properly describe the interaction of arterial pressure waveforms and such flow.
 
 Combining wearables and mechanistic models for remote patient-monitoring: this is a project involving our research group and Prof. Riccardi's group (DISI, UNITN) as partners. The project proposes to construct and deploy wearables on patients with cardiac and respiratory diseases so that they are remotely monitored. Mathematical modeling will be used to assess the quality of the data. We will also investigate the capacity of models to, in combination with wearable-acquired data, reproduce variables that are normally only accessible when the patient visits the hospital. This is an ongoing topic in which we collaborate with the cardiology department of Santa Chiara hospital (headed by Dr. Bonmassari) and the Pneumology department of the Ospedale Civile di Arco (headed by Dr. Nardelli).
+
+### Numerical methods for hyperbolic conservation laws on networks
+
+This research topic is deeply rooted in our group since our main fields of work are numerical analysis and scientific computing. We have specialized over time on designing numerical methods that perform well for the modeling of problems that our group approaches. In particular, since we mainly work with network models in which flow dynamics are described by one-dimensional models, we have focused on the development of numerical methods for hyperbolic (or hyperbolic-dominant) partial differential equations applied on networks of one-dimensional domains and possibly coupled to geometrically heterogeneous models arising from the need to couple vascular models to peripheral circulation models or surrounding tissues.
+
+![alt](/assets/ref_p_4.png)
+
+Propagation of a pressure wave over a network of vessels (vertical dashed lines show bifurcation points) computed using different modelling and numerical strategies. Image taken from [this paper.](https://doi.org/10.1016/j.jcp.2016.03.012)
+
+#### Robust numerical methods for variable properties and collapse
+
+When modeling orthostatic stress or the effect of external pressure on vessels ends up dealing with extreme situations. In such cases one wants to have numerical methods with certain properties, in particular the ability to deal with collapse. Another desirable property is that it correctly deals with steady state solutions, including difficulties arising when vessel properties vary in space and when friction terms are to be considered.
+
+#### Efficient numerical methods for hyperbolic conservation laws on networks
+
+Dealing with large vascular models implies that spatial scales can vary considerably. Moreover, considering blood pressure control or the interaction of different body fluids (for example blood and cerebrospinal fluid, blood and lymph, blood and transported gasses) might result in very different time scales. The numerical strategies used to solve models with these properties have to be efficient, which implies they have to offer an optimal tradeoff between accuracy and computational cost. It is well known that this is often achieved with high-order numerical methods. We have so far explored efficient explicit time discretization strategies, their parallelization using shared- and distributed memory parallel computing, as well as the capacity to adaptively select the model to be used. We are currently exploring PDE splitting strategies, and are also interested in exploring alternative discretization strategies, including implicit time discretization schemes.
+
+#### Enriched 1D blood flow models
+
+Departing from the supine position means modeling large deformations. We propose here to consider additional terms in one-dimensional blood flow models, arising from axial deformation or tethering, as well as from the presence of surrounding tissue, or even to the fact that collapse can be required to model localized pressure losses with distributed models. One-dimensional models can also be enriched by considering extended models that provide a more accurate description of the velocity profile at a given cross-section. All these aspects, and many others, will result in alternative systems of PDEs. Consequently, adopted numerical discretization strategies will need to be adapted.
+
+#### Knowledge transfer to other applications.
+
+The methods developed so far have been always applied to blood flow problems. However, the methodology is general and can be applied to similar problems which involve hyperbolic conservation laws on networks, such as traffic flow, gas and oil transport, water distribution, sewage collection, to name just a few.
+
 
 ### Main collaborations.
 

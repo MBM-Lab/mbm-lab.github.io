@@ -25,7 +25,7 @@ header:
       en-CA   : *EN
       en-AU   : *EN
     url: /people.html
-  
+
   - titles:
       # @start locale config
       en      : &EN       Teaching
@@ -34,7 +34,7 @@ header:
       en-CA   : *EN
       en-AU   : *EN
     url: /teaching.html
-  
+
   - titles:
       # @start locale config
       en      : &EN       Research
@@ -43,7 +43,7 @@ header:
       en-CA   : *EN
       en-AU   : *EN
     url: /research.html
-  
+
   - titles:
       # @start locale config
       en      : &EN       Projects
@@ -52,7 +52,7 @@ header:
       en-CA   : *EN
       en-AU   : *EN
     url: /projects.html
-  
+
   - titles:
       # @start locale config
       en      : &EN       Publications
@@ -61,7 +61,7 @@ header:
       en-CA   : *EN
       en-AU   : *EN
     url: /publications.html
-  
+
   - titles:
       # @start locale config
       en      : &EN       Events
@@ -70,3 +70,12 @@ header:
       en-CA   : *EN
       en-AU   : *EN
     url: /events.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       News
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+    url: /news.html

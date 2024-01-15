@@ -25,7 +25,7 @@ description: > # this means to ignore newlines until "Language & timezone"
   Your Site Description
 remote-theme: jekyll-text-theme
 collections_dir: collections
-collections: 
+collections:
     faculty:
       output: true
     alumni:
@@ -44,8 +44,10 @@ collections:
       output: true
     testimonials:
       output: true
-    projects: 
+    projects:
       output: false
+    news:
+      output: true
 
 
 ## => Language and Timezone

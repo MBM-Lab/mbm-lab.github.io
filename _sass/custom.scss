@@ -238,6 +238,65 @@ a {
     }
 }
 
+// NEWS PAGE
+
+.card_news_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+
+    padding-block: 15px;
+    padding-inline: 20px;
+    margin: 10px;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+
+    box-shadow: 2px 5px 10px rgba(0,0,0,.1);
+
+    a {
+        font-weight: 400;
+    }
+
+    p {
+        color: black;
+
+        span {
+            font-weight: 600;
+        }
+    }
+
+    .card_news {
+        display: flex;
+        flex-direction: row;
+
+        gap: 10px;
+
+        .news_info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .news_date {
+            font-size: .75rem;
+            margin-block-end: -2px;
+            opacity: 0.5;
+
+            text-transform: uppercase;
+        }
+
+        .news_ref_person {
+            font-size: 1rem;
+        }
+    }
+}
+
+.reference_person {
+    text-transform: uppercase;
+    opacity: 0.6;
+    font-weight: bolder;
+}
+
 // PROJECTS PAGE
 
 .card_project_wrapper {

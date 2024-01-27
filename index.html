@@ -71,23 +71,6 @@ layout: home
 
 <hr />
 
-<h2>News</h2>
-{% for news in site.news %}
-<div upcoming-date="{{ news.standard_date | date: '%Y%m%d' }}" class="card_news_wrapper">
-  <a href="{{ news.url }}">
-    <div class="card_news">
-      <div class="news_info">
-        <p class="news_date">{{ news.standard_date }}</p>
-        <h4>{{ news.title }}</h4>
-        <p class="news_ref_person">{{ news.reference_person}}</p>
-      </div>
-    </div>
-  </a>
-</div>
-{% endfor %}
-
-<hr />
-
 <h2>Events</h2>
 {% for event in site.events %}
 <div upcoming-date="{{ event.standard_date | date: '%Y%m%d' }}" class="card_event_wrapper">
@@ -104,6 +87,23 @@ layout: home
         <p><span>Speaker:</span> {{ event.speaker}}</p>
         {% endif %}
         <p class="event_date">{{ event.standard_date }} {{event.time}}</p>
+      </div>
+    </div>
+  </a>
+</div>
+{% endfor %}
+
+<hr />
+
+<h2>News</h2>
+{% for news in site.news %}
+<div upcoming-date="{{ news.standard_date | date: '%Y%m%d' }}" class="card_news_wrapper">
+  <a href="{{ news.url }}">
+    <div class="card_news">
+      <div class="news_info">
+        <p class="news_date">{{ news.standard_date }}</p>
+        <h4>{{ news.title }}</h4>
+        <p class="news_ref_person">{{ news.reference_person}}</p>
       </div>
     </div>
   </a>

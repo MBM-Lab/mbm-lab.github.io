@@ -16,7 +16,12 @@ links: ""
 ## Registrazione:
 L'ingresso all'evento è libero. Si richiede la registrazione tramite la compilazione del seguente [form.](https://forms.gle/myj65HS75L2vs1tQ9)
 
-Gli interessati ai **crediti ECM** devono registrarsi entro il **29 novembre 2024**. Crediti ECM in fase di accreditamento.
+Gli interessati ai **crediti ECM** devono registrarsi entro il **29 novembre 2024**. 
+
+Crediti ECM erogati: 3.
+Area disciplinare: “Clinico-Assistenziale - Aggiornamenti nelle Discipline Specialistiche di
+Competenza nell’ambito dell’obiettivo formativo provinciale di sviluppare le competenze e
+conoscenze tecnico professionali individuali nella disciplina di appartenenza”.
 
 ## Programma:
 

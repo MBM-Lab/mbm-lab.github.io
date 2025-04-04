@@ -4,23 +4,52 @@ layout: page
 
 <h1>{{page.name}}</h1>
 
-{% if page.photo == blank %}
-<img class="event_photo" src="/assets/android-chrome-512x512.png" width="200" height="200" />
-{% else %}
-<img src="{{page.photo}}" alt="{{page.name}}" style="width: 200px; height: 200px" />
-{% endif %} {% if page.links != blank %}
-<h2>Links</h2>
-<div class="links_wrapper">
-  <ul>
-    {% for link in page.links %}
-    <li><a href="{{link[1]}}">{{link[0]}}</a></li>
-    {% endfor %}
-  </ul>
+<div style="display: flex; align-items: flex-start;">
+  <!--picture and links-->
+  <div style="display: flex; flex-direction: column; align-items: center; flex-shrink: 0; margin-right: 20px;">
+    {% if page.photo == blank %}
+    <img class="event_photo" src="/assets/android-chrome-512x512.png" />
+    {% else %}
+    <img class="profile_photo_large" src="{{page.photo}}" alt="{{page.name}}" />
+    {% endif %}
+    {% if page.links != blank %}
+    <div class="links_wrapper" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin-top: 10px;">
+      {% if page.links.google_scholar %}
+      <a href="{{page.links.google_scholar}}" target="_blank" title="Google Scholar" style="margin: 0 5px;">
+      <i class="ai ai-google-scholar ai-2x"></i>
+      </a>
+      {% endif %}
+      {% if page.links.scopus %}
+      <a href="{{page.links.scopus}}" target="_blank" title="Scopus" style="margin: 0 5px;">
+      <i class="ai ai-scopus ai-2x"></i>
+      </a>
+      {% endif %}
+      {% if page.links.researchgate %}
+      <a href="{{page.links.researchgate}}" target="_blank" title="ResearchGate" style="margin: 0 5px;">
+      <i class="ai ai-researchgate ai-2x"></i>
+      </a>
+      {% endif %}
+      {% if page.links.orcid %}
+      <a href="{{page.links.orcid}}" target="_blank" title="ORCID" style="margin: 0 5px;">
+      <i class="ai ai-orcid ai-2x"></i>
+      </a>
+      {% endif %}
+      {% if page.links.orcid %}
+      <a href="{{page.links.unitn}}" target="_blank" title="UniTrento HomePage" style="margin: 0 5px;">
+        <i class="fa-solid fa-building-columns fa-2x"></i>
+      </a>
+      {% endif %}
+      {% if page.links.github %}
+      <a href="{{page.links.github}}" target="_blank" title="GitHub" style="margin: 0 5px;">
+        <i class="fa-brands fa-github fa-2x"></i>
+      </a>
+      {% endif %}
+    </div>
+    {% endif %}
+  </div>
+  <p style="text-align: justify; flex-grow: 1;">{{ page.cv }}</p>
 </div>
-{% endif %}
 
-<h2>Short CV</h2>
-<p>{{page.cv}}</p>
 
 <h2>Research Interests</h2>
 <p>{{page.research_interests}}</p>

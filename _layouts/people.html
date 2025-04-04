@@ -10,8 +10,6 @@ layout: page
       <img
         class="profile_photo"
         src="{{ member.photo }}"
-        width="100"
-        height="100"
       />
       <p>{{ member.name }}</p>
     </a>
@@ -72,37 +70,26 @@ layout: page
 </div>
 
 <h2>Master Students</h2>
-<h3>Current</h3>
-<div class="cards_people_wrapper">
-  <ul>
-    {% for member in site.master %}
-      {% if member.graduation_year == blank %}
-        <li>
-            {{ member.name }}: {{ member.thesis_title }} ({{ member.supervisors }})
-            {% if member.external_institution != blank %}
-              , {{ member.external_institution }}
-            {% endif %}
-            ;
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
+
+<div class="student-grid">
+{% assign past = site.master | where_exp: "member", "member.graduation_year != blank" | sort: 'graduation_year' | reverse %}
+{% assign curr = site.master | where_exp: "member", "member.graduation_year == blank" %}
+{% assign students = curr | concat: past %}
+{% for member in students %}
+<div class="student-card">
+  {% if member.graduation_year == blank %}
+  <span class="graduation-year">in progress</span>
+  {% else %}
+  <span class="graduation-year">{{ member.graduation_year }}</span>
+  {% endif %}
+  <h3 class="student-name">{{ member.name }}</h3>
+  <p class="student-thesis">🎓 <strong>Thesis:</strong> {{ member.thesis_title }}</p>
+  <p class="student-supervisors">👨‍🏫 <strong>Supervisors:</strong> {{ member.supervisors }}</p>
+  {% if member.external_institution %}
+    <p class="student-external">🏛️ <strong>Visiting:</strong> {{ member.external_institution }}</p>
+  {% endif %}
 </div>
-<h3>Former</h3>
-<div class="cards_people_wrapper">
-  <ul>
-    {% for member in site.master %}
-      {% if member.graduation_year != blank %}
-        <li>
-            {{ member.name }}: {{ member.thesis_title }} ({{ member.supervisors }})
-            {% if member.external_institution != blank %}
-              , {{ member.external_institution }}
-            {% endif %}
-            , {{ member.graduation_year }} ;
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
+{% endfor %}
 </div>
 
 <h2>Alumni</h2>

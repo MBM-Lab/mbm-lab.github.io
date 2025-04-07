@@ -6,4 +6,3 @@ supervisors: Lucas O. Müller
 external_institution: Deparment of Structural Engineering, Norwegian University of Science and Technology, Trondheim (Norway)
 graduation_year: 2024
 ---
-

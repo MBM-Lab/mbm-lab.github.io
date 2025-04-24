@@ -14,5 +14,3 @@ links: ""
 ---
 
 **Contact person:**  Laboratory of Mathematics for Biology And Medicine Research Group (Andrea Pugliese, Cinzia Soresina).
-
-[1]:

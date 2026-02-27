@@ -1,0 +1,9 @@
+---
+layout: person_page
+name: Rachele Nieri
+photo: /assets/images/people_portraits/Rachele_Nieri_crop.jpg
+cv: I earned my PhD in Ethology and Ecology from the University of Florence in 2017; during my doctoral studies, I also conducted research at the USDA in California. From 2018 to 2020, I served as a Postdoctoral Research Associate at Oregon State University and was a visiting researcher at the University of Missouri. I returned to Italy in 2021 as a Postdoctoral Fellow at the University of Trento, and since 2022, I have been a Researcher (RTDa) with a joint appointment at the Department of Mathematics and the Center Agriculture Food Environment (C3A). Currently, I am the Principal Investigator of the "BACH" project (Biotremology for the conservation of Art and Cultural Heritage), funded by the prestigious "Fondo Italiano per la Scienza" (FIS) grant.
+research_interests: "My research focuses on developing innovative, sustainable pest control strategies by manipulating animal behavior, with a specific emphasis on biotremology—the study of mechanical vibrations as a primary channel of animal communication. I leverage this phenomenon to design pesticide-free solutions by playing back synthetic vibrational signals into substrates to disrupt mating patterns or lure pests into traps.
+A core aspect of my work involves bridging the gap between biological data and mathematical modeling. By developing population dynamics models, we can evaluate and optimize the effectiveness of these pest control techniques. I specialize in integrating ethological studies with mathematical and computational modeling, utilizing multi-scale and agent-based approaches to simulate population interactions and the impact of semiophysical signals in contexts ranging from sustainable agriculture to the preservation of cultural heritage."
+links: 
+---

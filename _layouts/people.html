@@ -83,7 +83,7 @@ layout: page
   <span class="graduation-year">{{ member.graduation_year }}</span>
   {% endif %}
   <h3 class="student-name">{{ member.name }}</h3>
-  <p class="student-thesis">🎓 <strong>Thesis:</strong> {{ member.thesis_title }}</p>
+  <p class="student-thesis">🎓 <strong>Thesis:</strong> {{ member.thesis_title | markdownify | replace: '<p>', '' | replace: '</p>', '' | strip }}</p>
   <p class="student-supervisors">👨‍🏫 <strong>Supervisors:</strong> {{ member.supervisors }}</p>
   {% if member.external_institution %}
     <p class="student-external">🏛️ <strong>Visiting:</strong> {{ member.external_institution }}</p>

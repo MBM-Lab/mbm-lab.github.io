@@ -1,8 +1,8 @@
 ---
 layout:
 name: Laura Valvassori
-thesis_title: TDB
+thesis_title: "TBD"
 supervisors: Lucas O. Müller and Leonid Goubergrits
-external_institution: nstitute of Computer-assisted Cardiovascular Medicine, Charité - Universitätsmedizin Berlin
+external_institution: Institute of Computer-assisted Cardiovascular Medicine, Charité - Universitätsmedizin Berlin
 graduation_year: 
 ---

@@ -2,7 +2,7 @@
 layout: event_page
 title: "WORKSHOP - MBM LAB Meeting - Modelli matematici per il controllo di Insetti Fitofagi e Vettori"
 speaker: 
-standard_date: "12 Dicembre 2025"
+standard_date: "12th December 2025"
 time: 
 where: "Palazzo Consolati, Via S. Maria Maddalena 1, Trento, Aula 101"
 zoom_link: 

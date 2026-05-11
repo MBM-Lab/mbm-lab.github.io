@@ -22,7 +22,8 @@ This event is free! To secure your spot, please register by filling in the [regi
 
 **14.15 - 15.30** 
 - TBA, *Ilaria Dorigatti*, Imperial College, London
-- TBA, *Federico Reali*, COSBI, Trento
+- COSBI  From Data to Actionable Knowledge: 
+*Applied Mathematics for Drug Discovery and Development*, *Federico Reali*, COSBI, Trento
 - Past & present MBM lab experiences
 
 **15.30** Coffee Break

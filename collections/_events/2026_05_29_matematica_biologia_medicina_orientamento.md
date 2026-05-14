@@ -29,7 +29,7 @@ This event is free! To secure your spot, please register by filling in the [regi
 **15.30** Coffee Break
 
 **16.00 - 17.15**
-- TBA, *Michele Conti*, C3d lab, Ospedale San Donato
+- From Computational Models to Patients: Simulations and Personalized Medicine, *Michele Conti*, C3d lab, Ospedale San Donato
 - Mathematical models in medtech: how ELEM Biotech brings computational cardiology to industry, *Alberto Zingaro*, Bio Elem, Barcelona
 - Past & present MBM lab experiences
 

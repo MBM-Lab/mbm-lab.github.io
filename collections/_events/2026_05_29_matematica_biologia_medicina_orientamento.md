@@ -21,7 +21,7 @@ This event is free! To secure your spot, please register by filling in the [regi
 **14.00** Welcome by MBM LAB
 
 **14.15 - 15.30** 
-- TBA, *Ilaria Dorigatti*, Imperial College, London
+- From Maths to Medicine: A Career in Infectious Disease Modelling, *Ilaria Dorigatti*, Imperial College, London
 - COSBI  From Data to Actionable Knowledge: 
 *Applied Mathematics for Drug Discovery and Development*, *Federico Reali*, COSBI, Trento
 - Past & present MBM lab experiences
